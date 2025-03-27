@@ -109,9 +109,9 @@ class Game:
                         pygame.quit()
                         sys.exit()
                     if event.key == pygame.K_UP:
-                        self.fps = min(100, self.fps + 5)
+                        self.fps = min(100, self.fps + 20)
                     if event.key == pygame.K_DOWN:
-                        self.fps = max(5, self.fps - 5)
+                        self.fps = max(5, self.fps - 20)
                     if event.key == pygame.K_SPACE:
                         self.paused = not self.paused  # Toggle pause state
                     if event.key == pygame.K_F11:

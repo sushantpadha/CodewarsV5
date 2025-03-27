@@ -7,7 +7,7 @@ troops = [
     Troops.minion,
     Troops.dragon,
     Troops.archer,
-    Troops.musketeer,
+    Troops.barbarian,
     Troops.skeleton,
     Troops.valkyrie,
 ]
@@ -17,6 +17,132 @@ deploy_list = Troops([])
 # no. of _ = cycles before it appears in opp deck
 # N = opp. elixir
 team_signal = "||10"
+
+
+def get_deploy_position(t, troop_data, my_tower, opp_troops, my_troops, role, random, my_win_card, pp, double_elixir, elixir_condn):
+    # Arena dimensions and midline
+    ARENA_WIDTH = 50
+    ARENA_HEIGHT = 100
+    MIDLINE_Y = ARENA_HEIGHT / 2
+    
+    # Deployment zones
+    TANK_SUPPORT_Y_OFFSET = 3
+    
+    RIGHT_OFF = 13.5
+    LEFT_OFF = - RIGHT_OFF
+    OFF_Y = 45
+    
+    ATK_Y = 45 if elixir_condn else 37
+    
+    RIGHT_DEF = 10
+    LEFT_DEF = - RIGHT_DEF
+    DEF_Y = 18
+    AIR_DEF_Y = 25
+    TANK_DEF_Y = 14
+    
+    NEUTRAL_Y = 25
+    
+    DEPLOY_Y_OFFSET = 20  # Offset for fallback Y position
+    
+    RANGE_MULTIPLIER = 1.25
+    
+    # NOTE: positions for deploy always assume you are at 0,0 and right is +x, ahead is +y
+
+    # Helper to calculate threat in a region
+    def calculate_threat(x_min, x_max, y_min, y_max):
+        threat = 0
+        DAMAGE_WEIGHT = 1.0
+        HP_WEIGHT = 1.2  # Adjusted to balance with damage
+        FLY_HP_SCALING = 1.6  # Upscale HP for flying troops
+
+        for opp in opp_troops:
+            if x_min <= opp.position[0] <= x_max and y_min <= opp.position[1] <= y_max:
+                damage_threat = troop_data[opp.name]["gnd_dmg"] + troop_data[opp.name]["air_dmg"]
+                hp_threat = troop_data[opp.name]["hp"] * (FLY_HP_SCALING if "fly" in troop_data[opp.name]["flags"] else 1)
+                threat += (DAMAGE_WEIGHT * damage_threat + HP_WEIGHT * hp_threat) / troop_data[opp.name]["number"]
+        return threat
+
+    # Default deployment position (fallback)
+    deploy_x, deploy_y = 0, DEPLOY_Y_OFFSET
+
+    if t not in troop_data:
+        return (deploy_x, deploy_y)
+    
+    left_threat = calculate_threat(-ARENA_WIDTH / 2, 0, 0, ARENA_HEIGHT)
+    right_threat = calculate_threat(0, ARENA_WIDTH / 2, 0, ARENA_HEIGHT)
+    
+    close_threat = calculate_threat(-ARENA_WIDTH / 2, ARENA_WIDTH / 2, 0, 35)
+
+    if role == "ATTACK":
+        # Deploy left or right based on least threat
+        if left_threat < right_threat:
+            pp(f">>>>>>>>>> LEFT ATK")
+            deploy_x = LEFT_OFF
+        else:
+            pp(f">>>>>>>>>> RIGHT ATK")
+            deploy_x = RIGHT_OFF
+
+        deploy_y = ATK_Y
+
+    elif role in ("DEFENSE", "NEUTRAL"):
+        if "tank" in troop_data[t]["flags"]:
+            pp(f">>>>>>>>>> TANK")
+            # Deploy in center, a third of the way from tower to midline
+            deploy_x = 0
+            deploy_y = TANK_DEF_Y
+        else:
+            # Deploy away from threat
+            if left_threat > right_threat:
+                pp(f">>>>>>>>>> RIGHT DEF")
+                deploy_x = RIGHT_DEF
+            else:
+                pp(f">>>>>>>>>> LEFT DEF")
+                deploy_x = LEFT_DEF
+
+            deploy_y = NEUTRAL_Y if role == "NEUTRAL" else (AIR_DEF_Y if "fly" in troop_data[t]["flags"] else DEF_Y)
+
+        if close_threat > 1000:
+            deploy_x, deploy_y = 0, 10
+            if t in (Troops.archer,):
+                deploy_y = 5
+            elif t in (Troops.wizard, Troops.dragon,):
+                deploy_x = 10 if left_threat > right_threat else -10
+                deploy_y = 15
+            elif t in (Troops.barbarian, Troops.skeleton, Troops.valkyrie,):
+                deploy_x = 10 if left_threat < right_threat else -10
+                deploy_y = 10
+
+    elif role == "OFFENSE":
+        # Search for my_win_card in my_troops
+        win_card_troop = next((troop for troop in my_troops if troop.name == my_win_card), None)
+        # Deploy left or right based on threat
+        if win_card_troop:
+            # Deploy behind my_win_card for support
+            pp(f">>>>>>>>>> SUPPORT TANK")
+            deploy_x, deploy_y = win_card_troop.position[0], min(win_card_troop.position[1] - (TANK_SUPPORT_Y_OFFSET + troop_data[t]["range"] * RANGE_MULTIPLIER), MIDLINE_Y)
+        else:
+            # Deploy left or right near midline for flanking
+            if left_threat > right_threat:
+                pp(f">>>>>>>>>> RIGHT OFFENSE")
+                deploy_x = RIGHT_OFF
+            else:
+                pp(f">>>>>>>>>> LEFT OFFENSE")
+                deploy_x = LEFT_OFF
+                
+            deploy_y = OFF_Y
+            
+    if t == Troops.barbarian:
+        deploy_x -= 5
+    
+    if t == Troops.skeleton:
+        deploy_y -= 5
+    
+    # deploy further forward in double elixir
+    if double_elixir and role in ("NEUTRAL", "OFFENSE", "ATTACK"):
+        deploy_y = min(deploy_y + 10, MIDLINE_Y)
+
+    pp(f"Deploying {t} @ {role} at ({deploy_x}, {deploy_y})")
+    return (deploy_x, deploy_y)
 
 
 def deploy(arena_data: dict):
@@ -34,7 +160,7 @@ def logic(arena_data: dict):
     from math import exp
 
     global team_signal
-    DEBUG = 10
+    DEBUG = 0
 
     my_tower = arena_data["MyTower"]
     my_troops = arena_data["MyTroops"]
@@ -52,20 +178,23 @@ def logic(arena_data: dict):
     # cost, flags, air_dmg, gnd_dmg, hp, range
 
     troop_data = {
-        "Archer":    { "cost": 3, "flags": {'air', 'walk'},           "air_dmg": 2596.0, "gnd_dmg": 2596.0, "hp": 1002.0,   "range": 8 },
-        "Minion":    { "cost": 3, "flags": {'fly', 'air'},            "air_dmg": 3096.0, "gnd_dmg": 3096.0, "hp": 907.2,    "range": 4 },
-        "Knight":    { "cost": 3, "flags": {'gnd', 'tank', 'walk'},   "air_dmg": 0,      "gnd_dmg": 1326.0, "hp": 1938.0,   "range": 7 },
-        "Skeleton":  { "cost": 3, "flags": {'gnd', 'walk'},           "air_dmg": 0,      "gnd_dmg": 5340.0, "hp": 890.0,    "range": 4 },
-        "Dragon":    { "cost": 4, "flags": {'splash', 'fly', 'air'},  "air_dmg": 2508.0, "gnd_dmg": 2508.0, "hp": 1710.45,  "range": 5 },
-        # "Musketeer": { "cost": 4, "flags": {'air', 'walk'},           "air_dmg": 1434.0, "gnd_dmg": 1434.0, "hp": 1267.2,   "range": 8 },  # original
-        "Musketeer": { "cost": 4, "flags": {'air', 'walk'},           "air_dmg": 2034.0, "gnd_dmg": 2034.0, "hp": 1267.2,   "range": 8 },
-        # "Valkyrie":  { "cost": 4, "flags": {'splash', 'gnd', 'walk'}, "air_dmg": 0,      "gnd_dmg": 1755.0, "hp": 2097.0,   "range": 7 },  # original
-        "Valkyrie":  { "cost": 4, "flags": {'splash', 'gnd', 'walk'}, "air_dmg": 0,      "gnd_dmg": 2155.0, "hp": 2097.0,   "range": 7 },
-        "Giant":     { "cost": 5, "flags": {'gnd', 'tank', 'walk'},   "air_dmg": 0,      "gnd_dmg": 674.0,  "hp": 5423.0,   "range": 7 },
-        "Prince":    { "cost": 5, "flags": {'gnd', 'charge', 'walk'}, "air_dmg": 0,      "gnd_dmg": 2352.0, "hp": 1920.0,   "range": 5 },
-        "Barbarian": { "cost": 3, "flags": {'gnd', 'walk'},           "air_dmg": 0,      "gnd_dmg": 1449.0, "hp": 2208.0,   "range": 5 },
-        "Balloon":   { "cost": 5, "flags": {'splash', 'fly', 'gnd'},  "air_dmg": 1908.0, "gnd_dmg": 1908.0, "hp": 2226.0,   "range": 5 },
-        "Wizard":    { "cost": 5, "flags": {'splash', 'walk', 'air'}, "air_dmg": 7072.5, "gnd_dmg": 7072.5, "hp": 1705.0,   "range": 8 },
+        "Archer":    { "cost": 3, "flags": {'air', 'walk'},           "air_dmg": 2596.0, "gnd_dmg": 2596.0, "hp": 1002.0,   "range": 8, "number": 2},
+        "Minion":    { "cost": 3, "flags": {'fly', 'air'},            "air_dmg": 3096.0, "gnd_dmg": 3096.0, "hp": 907.2,    "range": 4, "number": 3},
+        "Knight":    { "cost": 3, "flags": {'gnd', 'tank', 'walk'},   "air_dmg": 0,      "gnd_dmg": 1326.0, "hp": 1938.0,   "range": 7, "number": 1},
+        # "Skeleton":  { "cost": 3, "flags": {'gnd', 'walk'},           "air_dmg": 0,      "gnd_dmg": 5340.0, "hp": 890.0,    "range": 4,   "number": 10},  # original
+        "Skeleton":  { "cost": 3, "flags": {'gnd', 'walk'},           "air_dmg": 0,      "gnd_dmg": 4000, "hp": 600.0,    "range": 4,   "number": 10},
+        # "Dragon":    { "cost": 4, "flags": {'splash', 'fly', 'air'},  "air_dmg": 2508.0, "gnd_dmg": 2508.0, "hp": 1710.45,  "range": 5,   "number": 1},
+        "Dragon":    { "cost": 4, "flags": {'splash', 'fly', 'air'},  "air_dmg": 2508.0, "gnd_dmg": 2508.0, "hp": 1910.45,  "range": 5, "number": 1},
+        # "Musketeer": { "cost": 4, "flags": {'air', 'walk'},           "air_dmg": 1434.0, "gnd_dmg": 1434.0, "hp": 1267.2,   "range": 8,   "number": 1},  # original
+        "Musketeer": { "cost": 4, "flags": {'air', 'walk'},           "air_dmg": 2034.0, "gnd_dmg": 2034.0, "hp": 1267.2,   "range": 8, "number": 1},
+        # "Valkyrie":  { "cost": 4, "flags": {'splash', 'gnd', 'walk'}, "air_dmg": 0,      "gnd_dmg": 1755.0, "hp": 2097.0,   "range": 7,   "number": 1},  # original
+        "Valkyrie":  { "cost": 4, "flags": {'splash', 'gnd', 'walk'}, "air_dmg": 0,      "gnd_dmg": 2455.0, "hp": 2197.0,   "range": 7, "number": 1},
+        "Giant":     { "cost": 5, "flags": {'gnd', 'tank', 'walk'},   "air_dmg": 0,      "gnd_dmg": 674.0,  "hp": 5423.0,   "range": 7, "number": 1},
+        "Prince":    { "cost": 5, "flags": {'gnd', 'charge', 'walk'}, "air_dmg": 0,      "gnd_dmg": 2352.0, "hp": 1920.0,   "range": 5, "number": 1},
+        "Barbarian": { "cost": 3, "flags": {'gnd', 'walk'},           "air_dmg": 0,      "gnd_dmg": 1449.0, "hp": 2208.0,   "range": 5, "number": 3},
+        "Balloon":   { "cost": 5, "flags": {'splash', 'fly', 'gnd'},  "air_dmg": 1908.0, "gnd_dmg": 1908.0, "hp": 2226.0,   "range": 5, "number": 1},
+        # "Wizard":    { "cost": 5, "flags": {'splash', 'walk', 'air'}, "air_dmg": 7072.5, "gnd_dmg": 7072.5, "hp": 1705.0,   "range": 8,   "number": 1},
+        "Wizard":    { "cost": 5, "flags": {'splash', 'walk', 'air'}, "air_dmg": 7000, "gnd_dmg": 7000, "hp": 1705.0,   "range": 8, "number": 1},
     }
 
     win_cards = {"Giant", "Balloon"}
@@ -154,9 +283,10 @@ def logic(arena_data: dict):
     
     # debug
     for t in opp_deck:
-        pp(t, end=' ')
-    pp(f'; {opp_elixir:.2f} 🩸')
-    pp(f'{my_cycle} | {hand} {my_elixir:.2f} 🩸 ({(my_tower.game_timer / 10 / 60):.0f}m{((my_tower.game_timer / 10) % 60):.0f}s)')
+        pass
+        # pp(t, end=' ')
+    # pp(f'; {opp_elixir:.2f}')
+    pp(f'{my_cycle} | {hand} {my_elixir:.2f} ({(my_tower.game_timer / 10 / 60):.0f}m{((my_tower.game_timer / 10) % 60):.0f}s)')
 
     ############################## HELPER FUNCS #########################################
 
@@ -233,22 +363,32 @@ def logic(arena_data: dict):
     DOUBLE_ELIXIR_SCALING = 0.8
 
     # Increase threat weights a bit further for damage and HP to differentiate troop power
-    THREAT_WEIGHT_FLYATK = 0.8 / 1000        # (was 1.2/1000)
-    THREAT_WEIGHT_WALKATK = 1.4 / 1000       # (was 1.1/1000)
-    THREAT_WEIGHT_AIRDEF = 1.1 / 1000        # (was 1.2/1000)
-    THREAT_WEIGHT_GNDDEF = 1.5 / 1000        # (was 1.2/1000)
+    THREAT_WEIGHT_FLYATK = 0.8        # (was 1.2)
+    THREAT_WEIGHT_WALKATK = 1.4       # (was 1.1)
+    THREAT_WEIGHT_AIRDEF = 1.1        # (was 1.2)
+    THREAT_WEIGHT_GNDDEF = 1.5        # (was 1.2)
+
+    THREAT_WEIGHT_FLYATK = 1.3        # (was 1.2)
+    THREAT_WEIGHT_WALKATK = 1.15       # (was 1.1)
+    THREAT_WEIGHT_AIRDEF = 2.        # (was 1.2)
+    THREAT_WEIGHT_GNDDEF = 0.1        # (was 1.2)
+    
+    THREAT_CF = 1 / 1000
 
     # Re-enable a modest elixir penalty to factor in resource differences
     ELIXIR_WEIGHT = 0                   # (was 0)
 
     # Adjust threat thresholds (increasing high-threat thresholds prevents overreacting)
-    AIR_THREAT_THRESHOLD_MOD = 10
-    GND_THREAT_THRESHOLD_MOD = 12
-    AIR_THREAT_THRESHOLD_HIGH = 13         # (was 10)
-    GND_THREAT_THRESHOLD_HIGH = 15         # (was 10)
+    AIR_THREAT_THRESHOLD_MOD = 15
+    GND_THREAT_THRESHOLD_MOD = 14
+    AIR_THREAT_THRESHOLD_HIGH = 19
+    GND_THREAT_THRESHOLD_HIGH = 18
+    
+    # factor to upscale threat by if troop in our side of arena
+    THREAT_POSN_FACTOR = 1.25
 
     # Elixir thresholds for decision-making
-    MY_ELIXIR_THRESHOLD = 5                 # (was 6)
+    MY_ELIXIR_THRESHOLD = 6                 # (was 6)
     OPP_ELIXIR_THRESHOLD = 3                # remains unchanged
 
     # Lower win counter thresholds to deploy win cards slightly earlier
@@ -257,58 +397,62 @@ def logic(arena_data: dict):
         "Balloon": 8                       # (was 10)
     }
 
-    EARLY_GAME_TICKS = 300  # (30 seconds at 10 ticks/second)
+    EARLY_GAME_TICKS = 10
 
     # Role-specific weights – push offense a bit more and balance defense
     ROLE_WEIGHTS = {
-        "DEFENSE": {"atk": 0.6, "def": 1.4},
-        "OFFENSE": {"atk": 1.2, "def": 0.7},
-        "NEUTRAL": {"atk": 1.0, "def": 1.0},
+        "DEFENSE": {"atk": 1, "def": 1.7},
+        "OFFENSE": {"atk": 1, "def": 1.1},
+        "NEUTRAL": {"atk": 1, "def": 1.3},
     }
 
     # Lower the threshold for long-term strategy so the bot is less “picky”
-    SCORE_THRESHOLD_FACTOR = 1.1            # (was 1.2 or 1.35 in previous iterations)
+    SCORE_THRESHOLD_FACTOR = 1.25            # (was 1.2 or 1.35 in previous iterations)
 
     # Increase elixir offset to smooth out cost variations
-    ELIXIR_OFFSET = 3                        # (was 2)
+    ELIXIR_OFFSET = 6                        # (was 2)
 
-    SPLASH_PENALIZED_TROOPS = (Troops.skeleton)
-    SPLASH_DMG_PENALTY = 150
+    SPLASH_PENALIZED_TROOPS = (Troops.skeleton,)
+    SPLASH_DMG_PENALTY = 200
 
     # ! temporary
     win_counter = 0
     
-    def compute_raw_threats(troop_list):
+    def compute_raw_threats(troop_list, opp = True):
         air = 0  # air attack capability
         gnd = 0  # gnd attack capability
         fly = 0  # air hp
         walk = 0  # gnd hp
-        for t in troop_list:
+        for _t in troop_list:
+            t = _t.name
+            factor = THREAT_POSN_FACTOR if (_t.position[1] > 50 and opp) else 1
             if t not in troop_data:
                 continue
-            flags, air_dmg, gnd_dmg, hp, cost = troop_data[t]["flags"], troop_data[t]["air_dmg"], troop_data[t]["gnd_dmg"], troop_data[t]["hp"], troop_data[t]["cost"]
+            flags, air_dmg, gnd_dmg, hp, number = troop_data[t]["flags"], troop_data[t]["air_dmg"], troop_data[t]["gnd_dmg"], troop_data[t]["hp"], troop_data[t]["number"]
 
-            gnd += gnd_dmg
+            gnd += gnd_dmg * factor / number
             if "air" in flags:
-                air += air_dmg
+                air += air_dmg * factor / number
 
             if "walk" in flags:
-                walk += hp
+                walk += hp * factor / number
             elif "fly" in flags:
-                fly += hp
+                fly += hp * factor / number
 
         return air, gnd, fly, walk
 
-    def compute_threats(troop_names, cycle):
+    def compute_threats(troop_list, cycle, opp = True):
         """
         Returns FlyAtk, WalkAtk, AirDef, GndDef attacks.
         """
         # Threat from currently deployed enemy troops (full weight)
-        fly_deployed, walk_deployed, air_deployed, gnd_deployed = compute_raw_threats(troop_names)
+        fly_deployed, walk_deployed, air_deployed, gnd_deployed = compute_raw_threats(troop_list, opp=opp)
 
         # Threat from enemy cycle (half weight, as they are not yet in play)
         # should scale (slowly) with opp elixir
-        fly_cycle, walk_cycle, air_cycle, gnd_cycle = compute_raw_threats(cycle)
+        # ! NOTE cycle threats are disabled
+        fly_cycle, walk_cycle, air_cycle, gnd_cycle = [0, 0, 0, 0]
+        # fly_cycle, walk_cycle, air_cycle, gnd_cycle = compute_raw_threats(cycle)
 
         cycle_factor = CYCLE_THREAT_SCALING * (1 + opp_elixir * CYCLE_THREAT_ELIXIR_SCALING)
 
@@ -321,6 +465,7 @@ def logic(arena_data: dict):
         threat_walk_atk = (walk_deployed + walk_cycle) * THREAT_WEIGHT_WALKATK  # gnd attack capability (relevant for def)
         threat_air_def = (air_deployed + air_cycle) * THREAT_WEIGHT_AIRDEF  # air hp (relevant for off)
         threat_gnd_def = (gnd_deployed + gnd_cycle) * THREAT_WEIGHT_GNDDEF  # gnd hp (relevant for off)
+        pp(f"Raw FlyAtk: {((fly_deployed+fly_cycle)*THREAT_CF):.1f} | Raw WalkAtk: {((walk_deployed+walk_cycle)*THREAT_CF):.1f} | Raw AirDef: {((air_deployed+air_cycle)*THREAT_CF):.1f} | Raw GndDef: {((gnd_deployed+gnd_cycle)*THREAT_CF):.1f}")
 
         # Incorporate elixir advantage: if you have more elixir, enemy threat is comparatively less dangerous.
         elixir_diff = my_elixir - opp_elixir
@@ -335,10 +480,10 @@ def logic(arena_data: dict):
         return (threat_fly_atk, threat_walk_atk, threat_air_def, threat_gnd_def)
 
     
-    def compute_effective_threats(_opp_troop_names, _opp_cycle, _my_troop_names, _my_cycle):
-        opp_threats = compute_threats(_opp_troop_names, _opp_cycle)
+    def compute_effective_threats(_opp_troops, _opp_cycle, _my_troops, _my_cycle):
+        opp_threats = compute_threats(_opp_troops, _opp_cycle, opp=True)
         
-        my_threats = compute_threats(_my_troop_names, _my_cycle)
+        my_threats = compute_threats(_my_troops, _my_cycle, opp=False)
 
         # Effective:
         # - FlyAtk = Opp FlyAtk - My AirDef
@@ -347,10 +492,10 @@ def logic(arena_data: dict):
         # - GndDef = Opp GndDef - My WalkAtk
         
         threats = (
-            opp_threats[0] - my_threats[2],
-            opp_threats[1] - my_threats[3],
-            opp_threats[2] - my_threats[0],
-            opp_threats[3] - my_threats[1]
+            (opp_threats[0] - my_threats[2]) * THREAT_WEIGHT_FLYATK * THREAT_CF,
+            (opp_threats[1] - my_threats[3]) * THREAT_WEIGHT_WALKATK * THREAT_CF,
+            (opp_threats[2] - my_threats[0]) * THREAT_WEIGHT_AIRDEF * THREAT_CF,
+            (opp_threats[3] - my_threats[1]) * THREAT_WEIGHT_GNDDEF * THREAT_CF,
         )
         
         # pp(f"\tFor OPP {opp_troop_names} -> {opp_threats}")
@@ -361,18 +506,20 @@ def logic(arena_data: dict):
 
 
     def assess_threat_level():
-        threats = compute_effective_threats(opp_troop_names, opp_cycle, my_troop_names, my_cycle)
+        # threats = compute_effective_threats(opp_troop_names, opp_cycle, my_troop_names, my_cycle)
+        threats = compute_effective_threats(opp_troops, opp_cycle, my_troops, my_cycle)
 
         threat_win = False
-        for i in win_cards:
-            if i in opp_troop_names:
-                threat_win = True
+        # ! NOTE win threat is disabled
+        # for i in win_cards:
+        #     if i in opp_troop_names:
+        #         threat_win = True
 
-                # if already deployed sufficient counter for win troop then stop doing so
-                if win_counter > WIN_COUNTER_THRESHOLDS[i]:
-                    threat_win = False
+        #         # if already deployed sufficient counter for win troop then stop doing so
+        #         if win_counter > WIN_COUNTER_THRESHOLDS[i]:
+        #             threat_win = False
 
-        pp(f"FlyAtk threat: {round(threats[0], 3)} | WalkAtk threat: {round(threats[1], 3)} | AirDef threat: {round(threats[2], 3)} | GndDef threat: {round(threats[3], 3)} | Win threat: {threat_win}")
+        pp(f"FlyAtk: {threats[0]:.1f} | WalkAtk: {threats[1]:.1f} | AirDef: {threats[2]:.1f} | GndDef: {threats[3]:.1f} | Win: {threat_win}")
 
         return *threats, threat_win
 
@@ -392,14 +539,15 @@ def logic(arena_data: dict):
                 z = exp(x)
                 return z / (1 + z)
 
-        k = 0.1
+        k = (0.25, 0.3)
 
         # 0 → prefer ground troops for defense, 1 → prefer flying troops for defense
-        def_pref = stable_sigmoid(k * (threat_walk_atk - threat_fly_atk))
+        def_pref = max(min(stable_sigmoid(k[0] * (threat_walk_atk - threat_fly_atk + 1)), 0.62), 0.38)
         # def_pref = threat_walk_atk / (threat_fly_atk + threat_walk_atk) if (threat_fly_atk + threat_walk_atk) else 0.5
 
+        # TODO ! adding offset and increasing k
         # 0 → prioritize gnd dmg, 1 → prioritize air dmg
-        atk_pref = stable_sigmoid(k * (threat_air_def - threat_gnd_def))
+        atk_pref = max(min(stable_sigmoid(k[1] * (threat_air_def - threat_gnd_def + 10)), 0.62), 0.38)
         # atk_pref = threat_air_def / (threat_air_def + threat_gnd_def) if (threat_air_def + threat_gnd_def) else 0.5
 
         # Determine role based on threats and elixir
@@ -409,17 +557,18 @@ def logic(arena_data: dict):
         win_card_in_hand = my_win_card in hand
         win_card_deployed = my_win_card in my_troops
 
-        role = "NEUTRAL"
+        role = "OFFENSE"
 
         # ATTACK if low threat and win card and sufficient elixir
         if not moderate_threat and win_card_in_hand and my_elixir > MY_ELIXIR_THRESHOLD:
             role = "ATTACK"
         # DEFENSE if high threat and or not win card
-        elif high_threat or not win_card_in_hand:
+        elif high_threat:
+        # elif high_threat or not win_card_in_hand:
             role = "DEFENSE"
-        # NEUTRAL if early game or too little elixir (implied that threat is not high)
-        elif my_elixir < MY_ELIXIR_THRESHOLD and my_tower.game_timer < EARLY_GAME_TICKS:
-            role = "NEUTRAL"
+        # # NEUTRAL if early game and too little elixir (implied that threat is not high)
+        # elif my_elixir < MY_ELIXIR_THRESHOLD and my_tower.game_timer < EARLY_GAME_TICKS:
+        #     role = "NEUTRAL"
         # OFFENSE if threat is not high (implied) and enemy low on elixir or we have win card deployed
         elif opp_elixir < OPP_ELIXIR_THRESHOLD or win_card_deployed:
             role = "OFFENSE"
@@ -457,13 +606,17 @@ def logic(arena_data: dict):
             return None  # Wait for elixir
 
         # Weights for different modes
-        role_weights = ROLE_WEIGHTS.get(role, ROLE_WEIGHTS["NEUTRAL"])
+        role_weights = ROLE_WEIGHTS.get(role, ROLE_WEIGHTS["OFFENSE"])
         role_atk_weight = role_weights["atk"]
         role_def_weight = role_weights["def"]
 
         # Consider both current hand and next 2 cycle troops
         all_troops = hand + my_cycle[:-2]
         troop_scores = {}
+        
+        pp()
+        
+        _d = []
 
         for troop in all_troops:
             if troop not in troop_data:
@@ -476,29 +629,37 @@ def logic(arena_data: dict):
             flags = data["flags"]
 
             # Calculate attack and defense components as before
-            atk_score = atk_pref * air_dmg + (1 - atk_pref) * gnd_dmg
+            # if troop attacks air, take average of wgted air and gnd damages
+            atk_score = (1 - atk_pref) * gnd_dmg if air_dmg == 0 else (atk_pref * air_dmg + (1- atk_pref) * gnd_dmg) / 2
             def_score = def_pref * hp if "fly" in flags else (1 - def_pref) * hp
-
+            
             # Instead of dividing by cost, use a multiplier that dampens variation:
             # multiplier = (ELIXIR_OFFSET + my_elixir) / (ELIXIR_OFFSET + cost)
-            multiplier = (ELIXIR_OFFSET + my_elixir) / (ELIXIR_OFFSET + cost)
+            # if card is costlier, slightly lower score else keep as it is
+            multiplier = min((ELIXIR_OFFSET + my_elixir) / (ELIXIR_OFFSET + cost), 1)
             score = (role_atk_weight * atk_score + role_def_weight * def_score) * multiplier
+            
+            _d.append((troop, int(atk_score), int(def_score), multiplier, int(score)))
 
             troop_scores[troop] = (score, cost)
             
-        # splash
-        for t in hand:
-            if "splash" in troop_data[t]["flags"]:
-                for tt in SPLASH_PENALIZED_TROOPS:
-                    if tt in troop_scores:
-                        pp(f">>>>>>>>> penalized {tt}")
-                        troop_scores[tt][0] = -SPLASH_DMG_PENALTY
-                
+        import pandas as pd
+        pp(pd.DataFrame(_d, columns=["Troop", "Atk", "Def", "Mult", "Score"]).to_string())
+            
+        # penalize against splash damage
+        # for every splash damage troop in enemy team
+        # deduct penalty
+        for o in opp_troop_names:
+            if "splash" in troop_data[o]["flags"]:
+                for t in SPLASH_PENALIZED_TROOPS:
+                    if t in troop_scores:
+                        troop_scores[t] = (troop_scores[t][0] - SPLASH_DMG_PENALTY, troop_scores[t][1])
+        
             
         # debug scores
-        for t, (s, c) in sorted(troop_scores.items(), key=lambda x: (x[1][1], -x[1][0])):
-            pp(f"{t}: {round(s, 3)} /", end=' ')
-        pp()
+        # for t, (s, c) in sorted(troop_scores.items(), key=lambda x: (x[1][1], -x[1][0])):
+            # pp(f"{t}: {round(s, 3)} /", end=' ')
+        # pp()
 
         # Best troop overall
         best_troop, (best_score, best_cost) = max(
@@ -530,7 +691,7 @@ def logic(arena_data: dict):
         # if no long term strategy and nothing to deploy and we are defending
         # then deploy next best troop, 40% of the time
         if not best_deployable and random.random() > 0.6 and role == "DEFENSE":
-            troop_scores.popitem(best_troop)
+            del troop_scores[best_troop]
             _t, (_s, _c) = max(
                 troop_scores.items(), key=lambda x: x[1][0]
             )
@@ -548,9 +709,8 @@ def logic(arena_data: dict):
 
     # best_troop = compute_best_troop(role, def_pref, atk_pref)
     best_troop = compute_best_troop(role, def_pref, atk_pref)
-
-    # deploy_list.list_.append((my_tower.deployable_troops[0], (-25, 0)))
-    _ = deploy_list.list_.append((best_troop, ((random.random() - 0.5) * 15, 20))) if best_troop else None
+    x, y = get_deploy_position(best_troop, troop_data, my_tower, opp_troops, my_troops, role, random=random, my_win_card=my_win_card, pp=pp, double_elixir=double_elixir, elixir_condn=(my_elixir>=MY_ELIXIR_THRESHOLD))
+    _ = deploy_list.list_.append((best_troop, (x, y))) if best_troop in troop_data else None
 
     ############################### UPDATE GLOBAL VAR ################################
 
@@ -563,7 +723,7 @@ def logic(arena_data: dict):
     team_signal += "|"
     team_signal += ",".join(i for i in my_cycle if i)
     team_signal += f"|{opp_elixir:.3f}"
-
+    
     # pp()
     # pp()
     

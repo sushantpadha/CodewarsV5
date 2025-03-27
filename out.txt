@@ -1,0 +1,2684 @@
+pygame 2.6.1 (SDL 2.28.4, Python 3.12.9)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Pass: All conditions met for TEAM 1 : Pratyaksh!
+Pass: All conditions met for TEAM 2 : leviOsa!
+[] | ['Giant', 'Valkyrie', 'Skeleton', 'Archer'] 10.00 (0m0s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.0 | Raw AirDef: 0.0 | Raw GndDef: 0.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.0 | Raw AirDef: 0.0 | Raw GndDef: 0.0
+FlyAtk: 0.0 | WalkAtk: 0.0 | AirDef: 0.0 | GndDef: 0.0 | Win: False
+Role: ATTACK, Defense Pref: 0.55, Attack Pref: 0.92
+ATTACK mode: Deploying win card Giant
+>>>>>>>>>> RIGHT ATK
+Deploying Giant @ ATTACK at (13.5, 45)
+
+['Giant', 'Dragon'] | ['Valkyrie', 'Skeleton', 'Archer', 'Barbarian'] 1.50 (0m1s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 15.5 | WalkAtk: 15.4 | AirDef: -2.2 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.54, Attack Pref: 0.89
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   981  240  0.750000    916
+1   Skeleton  1822   68  0.833333   1575
+2     Archer  1298  114  0.833333   1177
+3  Barbarian   660  252  0.833333    760
+Waiting for Skeleton (Need 3 elixir, have 1.50)
+
+['Giant', 'Dragon'] | ['Valkyrie', 'Skeleton', 'Archer', 'Barbarian'] 2.00 (0m2s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 15.5 | WalkAtk: 15.4 | AirDef: -2.2 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.54, Attack Pref: 0.89
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   981  240  0.800000    977
+1   Skeleton  1822   68  0.888889   1680
+2     Archer  1298  114  0.888889   1255
+3  Barbarian   660  252  0.888889    811
+Waiting for Skeleton (Need 3 elixir, have 2.00)
+
+['Giant', 'Dragon'] | ['Valkyrie', 'Skeleton', 'Archer', 'Barbarian'] 2.50 (0m3s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 15.5 | WalkAtk: 15.4 | AirDef: -2.2 | GndDef: -0.3 | Win: False
+Role: NEUTRAL, Defense Pref: 0.54, Attack Pref: 0.89
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   981  240  0.850000   1079
+1   Skeleton  1822   68  0.944444   1798
+2     Archer  1298  114  0.944444   1356
+3  Barbarian   660  252  0.944444    910
+Waiting for Skeleton (Need 3 elixir, have 2.50)
+
+['Giant', 'Dragon'] | ['Valkyrie', 'Skeleton', 'Archer', 'Barbarian'] 3.00 (0m4s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 15.5 | WalkAtk: 15.4 | AirDef: -2.2 | GndDef: -0.3 | Win: False
+Role: NEUTRAL, Defense Pref: 0.54, Attack Pref: 0.89
+
+       Troop   Atk  Def  Mult  Score
+0   Valkyrie   981  240   0.9   1143
+1   Skeleton  1822   68   1.0   1904
+2     Archer  1298  114   1.0   1435
+3  Barbarian   660  252   1.0    963
+Waiting for Skeleton (Need 3 elixir, have 3.00)
+
+['Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 0.50 (0m5s)
+Raw FlyAtk: 15.1 | Raw WalkAtk: 15.1 | Raw AirDef: 3.4 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 7.2 | Raw AirDef: 1.9 | Raw GndDef: 6.0
+FlyAtk: 20.6 | WalkAtk: 19.3 | AirDef: 7.0 | GndDef: -0.8 | Win: False
+Role: DEFENSE, Defense Pref: 0.49, Attack Pref: 0.99
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie  1108   24  0.650000    743
+1     Archer  1298   11  0.722222    949
+2  Barbarian   745   25  0.722222    565
+3     Minion  1548  896  0.722222   2089
+4      Giant   346   62  0.590909    260
+Waiting for Minion (Need 3 elixir, have 0.50)
+
+['Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 1.00 (0m6s)
+Raw FlyAtk: 13.9 | Raw WalkAtk: 13.9 | Raw AirDef: 3.0 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 7.2 | Raw AirDef: 1.9 | Raw GndDef: 6.0
+FlyAtk: 18.5 | WalkAtk: 17.7 | AirDef: 5.6 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.51, Attack Pref: 0.98
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie  1059   34  0.700000    765
+1     Archer  1298   16  0.777778   1022
+2  Barbarian   712   36  0.777778    582
+3     Minion  1548  892  0.777778   1897
+4      Giant   331   89  0.636364    267
+Waiting for Minion (Need 3 elixir, have 1.00)
+
+['Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 1.50 (0m7s)
+Raw FlyAtk: 12.6 | Raw WalkAtk: 12.6 | Raw AirDef: 2.7 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 7.2 | Raw AirDef: 1.9 | Raw GndDef: 6.0
+FlyAtk: 16.4 | WalkAtk: 16.0 | AirDef: 4.1 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.53, Attack Pref: 0.98
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie  1010   49  0.750000    794
+1     Archer  1298   23  0.833333   1101
+2  Barbarian   679   51  0.833333    609
+3     Minion  1548  885  0.833333   2028
+4      Giant   315  127  0.681818    302
+Waiting for Minion (Need 3 elixir, have 1.50)
+
+['Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 2.00 (0m8s)
+Raw FlyAtk: 11.4 | Raw WalkAtk: 11.4 | Raw AirDef: 2.3 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 7.2 | Raw AirDef: 1.9 | Raw GndDef: 6.0
+FlyAtk: 14.3 | WalkAtk: 14.4 | AirDef: 2.6 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.55, Attack Pref: 0.97
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   961   70  0.800000    825
+1     Archer  1298   33  0.888889   1183
+2  Barbarian   646   73  0.888889    640
+3     Minion  1548  876  0.888889   2155
+4      Giant   300  181  0.727273    350
+Waiting for Minion (Need 3 elixir, have 2.00)
+
+['Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 2.50 (0m9s)
+Raw FlyAtk: 11.4 | Raw WalkAtk: 11.4 | Raw AirDef: 2.3 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 7.2 | Raw AirDef: 1.9 | Raw GndDef: 6.0
+FlyAtk: 14.3 | WalkAtk: 14.4 | AirDef: 2.6 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.55, Attack Pref: 0.97
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   961   70  0.850000    876
+1     Archer  1298   33  0.944444   1257
+2  Barbarian   646   73  0.944444    680
+3     Minion  1548  876  0.944444   2290
+4      Giant   300  181  0.772727    372
+Waiting for Minion (Need 3 elixir, have 2.50)
+
+['Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 3.00 (0m10s)
+Raw FlyAtk: 11.4 | Raw WalkAtk: 11.4 | Raw AirDef: 2.3 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 7.2 | Raw AirDef: 1.9 | Raw GndDef: 6.0
+FlyAtk: 14.3 | WalkAtk: 14.4 | AirDef: 2.6 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.55, Attack Pref: 0.97
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   961   70  0.900000    928
+1     Archer  1298   33  1.000000   1331
+2  Barbarian   646   73  1.000000    720
+3     Minion  1548  876  1.000000   2424
+4      Giant   300  181  0.818182    394
+Waiting for Minion (Need 3 elixir, have 3.00)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 0.50 (0m11s)
+Raw FlyAtk: 14.5 | Raw WalkAtk: 14.5 | Raw AirDef: 2.3 | Raw GndDef: 3.2
+Raw FlyAtk: 5.6 | Raw WalkAtk: 10.3 | Raw AirDef: 2.8 | Raw GndDef: 6.0
+FlyAtk: 17.2 | WalkAtk: 18.5 | AirDef: -5.4 | GndDef: -1.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.61, Attack Pref: 0.81
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   834   402  0.650000    934
+1     Archer  1298   192  0.722222   1145
+2  Barbarian   561   423  0.722222    864
+3     Wizard  3500   327  0.590909   2358
+4      Giant   260  1041  0.590909   1076
+5     Dragon  1254  1543  0.650000   2320
+Waiting for Wizard (Need 5 elixir, have 0.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 1.00 (0m12s)
+Raw FlyAtk: 14.5 | Raw WalkAtk: 14.5 | Raw AirDef: 2.3 | Raw GndDef: 3.2
+Raw FlyAtk: 5.6 | Raw WalkAtk: 10.3 | Raw AirDef: 2.8 | Raw GndDef: 6.0
+FlyAtk: 17.2 | WalkAtk: 18.5 | AirDef: -5.4 | GndDef: -1.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.61, Attack Pref: 0.81
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   834   402  0.700000   1006
+1     Archer  1298   192  0.777778   1233
+2  Barbarian   561   423  0.777778    930
+3     Wizard  3500   327  0.636364   2539
+4      Giant   260  1041  0.636364   1159
+5     Dragon  1254  1543  0.700000   2498
+Waiting for Wizard (Need 5 elixir, have 1.00)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 1.50 (0m13s)
+Raw FlyAtk: 14.5 | Raw WalkAtk: 14.5 | Raw AirDef: 2.3 | Raw GndDef: 3.2
+Raw FlyAtk: 5.6 | Raw WalkAtk: 9.9 | Raw AirDef: 2.8 | Raw GndDef: 6.0
+FlyAtk: 17.2 | WalkAtk: 18.5 | AirDef: -5.4 | GndDef: -1.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.61, Attack Pref: 0.81
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   833   406  0.750000   1082
+1     Archer  1298   194  0.833333   1324
+2  Barbarian   560   427  0.833333   1001
+3     Wizard  3500   330  0.681818   2724
+4      Giant   260  1050  0.681818   1252
+5     Dragon  1254  1540  0.750000   2673
+Waiting for Wizard (Need 5 elixir, have 1.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 2.00 (0m14s)
+Raw FlyAtk: 14.5 | Raw WalkAtk: 14.5 | Raw AirDef: 2.3 | Raw GndDef: 3.2
+Raw FlyAtk: 5.6 | Raw WalkAtk: 8.8 | Raw AirDef: 2.8 | Raw GndDef: 0.5
+FlyAtk: 17.2 | WalkAtk: 19.2 | AirDef: -5.4 | GndDef: -1.0 | Win: False
+Role: DEFENSE, Defense Pref: 0.64, Attack Pref: 0.80
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   770   416  0.800000   1116
+1     Archer  1298   199  0.888889   1419
+2  Barbarian   517   438  0.888889   1045
+3     Wizard  3500   338  0.727273   2914
+4      Giant   240  1077  0.727273   1350
+5     Dragon  1254  1530  0.800000   2840
+Waiting for Wizard (Need 5 elixir, have 2.00)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 2.50 (0m15s)
+Raw FlyAtk: 10.0 | Raw WalkAtk: 10.0 | Raw AirDef: 0.0 | Raw GndDef: 2.6
+Raw FlyAtk: 5.6 | Raw WalkAtk: 8.0 | Raw AirDef: 2.8 | Raw GndDef: 0.4
+FlyAtk: 9.5 | WalkAtk: 13.1 | AirDef: -14.6 | GndDef: -0.9 | Win: False
+Role: OFFENSE, Defense Pref: 0.72, Attack Pref: 0.29
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   611  1499  0.850000   1794
+1     Archer  1298   716  0.944444   1902
+2  Barbarian   411  1578  0.944444   1879
+3     Wizard  3500  1218  0.772727   3646
+4      Giant   191  3876  0.772727   3143
+5     Dragon  1254   544  0.850000   1528
+Waiting for Wizard (Need 5 elixir, have 2.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 3.00 (0m16s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 8.4 | Raw AirDef: 0.0 | Raw GndDef: 2.0
+Raw FlyAtk: 5.6 | Raw WalkAtk: 7.2 | Raw AirDef: 2.8 | Raw GndDef: 0.2
+FlyAtk: 6.9 | WalkAtk: 11.1 | AirDef: -14.6 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.74, Attack Pref: 0.28
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   561  1508  0.900000   1863
+1     Archer  1298   720  1.000000   2018
+2  Barbarian   377  1588  1.000000   1965
+3     Wizard  3500  1226  0.818182   3866
+4      Giant   175  3900  0.818182   3334
+5     Dragon  1254   536  0.900000   1611
+Waiting for Wizard (Need 5 elixir, have 3.00)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 3.50 (0m17s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 8.4 | Raw AirDef: 0.0 | Raw GndDef: 2.0
+Raw FlyAtk: 5.6 | Raw WalkAtk: 6.8 | Raw AirDef: 2.8 | Raw GndDef: 0.2
+FlyAtk: 6.9 | WalkAtk: 11.1 | AirDef: -14.6 | GndDef: -0.8 | Win: False
+Role: NEUTRAL, Defense Pref: 0.74, Attack Pref: 0.28
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   561  1513  0.950000   2258
+1     Archer  1298   722  1.000000   2165
+2  Barbarian   377  1593  1.000000   2289
+3     Wizard  3500  1230  0.863636   4297
+4      Giant   175  3912  0.863636   4206
+5     Dragon  1254   531  0.950000   1797
+Waiting for Wizard (Need 5 elixir, have 3.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 4.00 (0m18s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 8.4 | Raw AirDef: 0.0 | Raw GndDef: 2.0
+Raw FlyAtk: 5.6 | Raw WalkAtk: 6.0 | Raw AirDef: 2.8 | Raw GndDef: 0.1
+FlyAtk: 6.9 | WalkAtk: 11.1 | AirDef: -14.6 | GndDef: -0.7 | Win: False
+Role: NEUTRAL, Defense Pref: 0.74, Attack Pref: 0.27
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   560  1522  1.000000   2387
+1     Archer  1298   727  1.000000   2171
+2  Barbarian   376  1603  1.000000   2300
+3     Wizard  3500  1238  0.909091   4532
+4      Giant   175  3937  0.909091   4455
+5     Dragon  1254   523  1.000000   1881
+Waiting for Wizard (Need 5 elixir, have 4.00)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 4.50 (0m19s)
+Raw FlyAtk: 7.0 | Raw WalkAtk: 9.6 | Raw AirDef: 0.0 | Raw GndDef: 4.2
+Raw FlyAtk: 5.6 | Raw WalkAtk: 5.6 | Raw AirDef: 2.8 | Raw GndDef: 0.0
+FlyAtk: 4.5 | WalkAtk: 12.7 | AirDef: -14.6 | GndDef: -0.6 | Win: False
+Role: OFFENSE, Defense Pref: 0.86, Attack Pref: 0.27
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   296  1529  1.000000   1826
+1     Archer  1298   730  1.000000   2028
+2  Barbarian   199  1610  1.000000   1810
+3     Wizard  3500  1243  0.954545   4528
+4      Giant    92  3956  0.954545   3864
+5     Dragon  1254   516  1.000000   1770
+Waiting for Wizard (Need 5 elixir, have 4.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 5.00 (0m20s)
+Raw FlyAtk: 7.0 | Raw WalkAtk: 9.6 | Raw AirDef: 0.0 | Raw GndDef: 4.2
+Raw FlyAtk: 4.6 | Raw WalkAtk: 4.6 | Raw AirDef: 2.5 | Raw GndDef: 0.0
+FlyAtk: 5.3 | WalkAtk: 12.7 | AirDef: -11.9 | GndDef: -0.5 | Win: False
+Role: OFFENSE, Defense Pref: 0.84, Attack Pref: 0.41
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie   339  1230   1.0   1569
+1     Archer  1298   588   1.0   1886
+2  Barbarian   228  1295   1.0   1523
+3     Wizard  3500  1000   1.0   4500
+4      Giant   106  3182   1.0   3288
+5     Dragon  1254   789   1.0   2043
+Waiting for Wizard (Need 5 elixir, have 5.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 0.50 (0m21s)
+Raw FlyAtk: 7.0 | Raw WalkAtk: 9.6 | Raw AirDef: 0.0 | Raw GndDef: 4.2
+Raw FlyAtk: 11.6 | Raw WalkAtk: 11.6 | Raw AirDef: 2.5 | Raw GndDef: 1.7
+FlyAtk: 5.3 | WalkAtk: 12.5 | AirDef: -30.1 | GndDef: -1.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.84, Attack Pref: 0.01
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   350  2078  0.650000   1578
+1     Archer  1298   992  0.722222   1654
+2  Barbarian   235  2188  0.722222   1750
+3      Giant   109  5374  0.590909   3240
+4     Dragon  1254    17  0.650000    826
+5   Skeleton   650   594  0.722222    899
+Waiting for Giant (Need 5 elixir, have 0.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 1.00 (0m22s)
+Raw FlyAtk: 7.0 | Raw WalkAtk: 9.6 | Raw AirDef: 0.0 | Raw GndDef: 4.2
+Raw FlyAtk: 10.5 | Raw WalkAtk: 10.5 | Raw AirDef: 2.2 | Raw GndDef: 1.7
+FlyAtk: 6.1 | WalkAtk: 12.5 | AirDef: -27.4 | GndDef: -1.2 | Win: False
+Role: OFFENSE, Defense Pref: 0.81, Attack Pref: 0.02
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   399  2061  0.700000   1722
+1     Archer  1298   984  0.777778   1775
+2  Barbarian   268  2170  0.777778   1896
+3      Giant   124  5330  0.636364   3471
+4     Dragon  1254    32  0.700000    900
+5   Skeleton   741   589  0.777778   1035
+Waiting for Giant (Need 5 elixir, have 1.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 1.50 (0m23s)
+Raw FlyAtk: 7.0 | Raw WalkAtk: 9.6 | Raw AirDef: 0.0 | Raw GndDef: 4.2
+Raw FlyAtk: 9.5 | Raw WalkAtk: 9.5 | Raw AirDef: 1.9 | Raw GndDef: 1.7
+FlyAtk: 6.9 | WalkAtk: 12.5 | AirDef: -24.7 | GndDef: -1.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.79, Attack Pref: 0.03
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   452  2030  0.750000   1862
+1     Archer  1298   970  0.833333   1890
+2  Barbarian   304  2137  0.833333   2035
+3      Giant   141  5250  0.681818   3676
+4     Dragon  1254    60  0.750000    986
+5   Skeleton   840   580  0.833333   1184
+Waiting for Giant (Need 5 elixir, have 1.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 2.00 (0m24s)
+Raw FlyAtk: 7.0 | Raw WalkAtk: 9.6 | Raw AirDef: 0.0 | Raw GndDef: 4.2
+Raw FlyAtk: 9.5 | Raw WalkAtk: 9.5 | Raw AirDef: 1.9 | Raw GndDef: 1.7
+FlyAtk: 6.9 | WalkAtk: 12.5 | AirDef: -24.7 | GndDef: -1.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.79, Attack Pref: 0.03
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   452  2030  0.800000   1986
+1     Archer  1298   970  0.888889   2016
+2  Barbarian   304  2137  0.888889   2171
+3      Giant   141  5250  0.727273   3921
+4     Dragon  1254    60  0.800000   1051
+5   Skeleton   840   580  0.888889   1263
+Waiting for Giant (Need 5 elixir, have 2.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 2.50 (0m25s)
+Raw FlyAtk: 7.0 | Raw WalkAtk: 9.6 | Raw AirDef: 0.0 | Raw GndDef: 4.2
+Raw FlyAtk: 9.5 | Raw WalkAtk: 9.5 | Raw AirDef: 1.9 | Raw GndDef: 1.7
+FlyAtk: 6.9 | WalkAtk: 12.5 | AirDef: -24.7 | GndDef: -1.1 | Win: False
+Role: NEUTRAL, Defense Pref: 0.79, Attack Pref: 0.03
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   452  2030  0.850000   2456
+1     Archer  1298   970  0.944444   2325
+2  Barbarian   304  2137  0.944444   2710
+3      Giant   141  5250  0.772727   4978
+4     Dragon  1254    60  0.850000   1127
+5   Skeleton   840   580  0.944444   1452
+Waiting for Giant (Need 5 elixir, have 2.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 3.00 (0m26s)
+Raw FlyAtk: 7.0 | Raw WalkAtk: 9.6 | Raw AirDef: 0.0 | Raw GndDef: 4.2
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 11.8 | WalkAtk: 12.5 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: NEUTRAL, Defense Pref: 0.58, Attack Pref: 0.13
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   901  1814  0.900000   2770
+1     Archer  1298   866  1.000000   2338
+2  Barbarian   605  1910  1.000000   2898
+3      Giant   281  4692  0.818182   4837
+4     Dragon  1254   257  0.900000   1406
+5   Skeleton  1672   519  1.000000   2295
+Waiting for Giant (Need 5 elixir, have 3.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 3.50 (0m27s)
+Raw FlyAtk: 7.0 | Raw WalkAtk: 9.6 | Raw AirDef: 0.0 | Raw GndDef: 4.2
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 11.8 | WalkAtk: 12.5 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: NEUTRAL, Defense Pref: 0.58, Attack Pref: 0.13
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   901  1814  0.950000   2924
+1     Archer  1298   866  1.000000   2338
+2  Barbarian   605  1910  1.000000   2898
+3      Giant   281  4692  0.863636   5106
+4     Dragon  1254   257  0.950000   1484
+5   Skeleton  1672   519  1.000000   2295
+Waiting for Giant (Need 5 elixir, have 3.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 4.00 (0m28s)
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 11.8 | WalkAtk: 9.1 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: NEUTRAL, Defense Pref: 0.41, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1266  1812  1.000000   3441
+1     Archer  1298   866  1.000000   2337
+2  Barbarian   851  1908  1.000000   3141
+3      Giant   395  4688  0.909091   5474
+4     Dragon  1254   258  1.000000   1564
+5   Skeleton  2350   518  1.000000   2972
+Waiting for Giant (Need 5 elixir, have 4.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 4.50 (0m29s)
+Raw FlyAtk: 15.4 | Raw WalkAtk: 15.4 | Raw AirDef: 0.0 | Raw GndDef: 3.8
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 26.0 | WalkAtk: 20.2 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: DEFENSE, Defense Pref: 0.27, Attack Pref: 0.13
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1563  1814  1.000000   4284
+1     Archer  1298   866  1.000000   2598
+2  Barbarian  1051  1910  1.000000   3916
+3      Giant   488  4691  0.954545   7183
+4     Dragon  1254   257  1.000000   1640
+5   Skeleton  2901   519  1.000000   3679
+Waiting for Giant (Need 5 elixir, have 4.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 5.00 (0m30s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 8.4 | Raw AirDef: 0.0 | Raw GndDef: 2.0
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 14.2 | WalkAtk: 10.9 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.39, Attack Pref: 0.14
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie  1319  1813   1.0   3132
+1     Archer  1298   866   1.0   2164
+2  Barbarian   887  1908   1.0   2796
+3      Giant   412  4688   1.0   5101
+4     Dragon  1254   258   1.0   1512
+5   Skeleton  2448   518   1.0   2967
+Waiting for Giant (Need 5 elixir, have 5.00)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 0.50 (1m31s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 8.4 | Raw AirDef: 0.0 | Raw GndDef: 2.0
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.7 | Raw AirDef: 0.0 | Raw GndDef: 7.1
+FlyAtk: 14.2 | WalkAtk: 10.3 | AirDef: -18.2 | GndDef: -0.9 | Win: False
+Role: OFFENSE, Defense Pref: 0.36, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1382  1808  0.650000   2073
+1     Archer  1298   864  0.722222   1561
+2  Barbarian   929  1903  0.722222   2046
+3     Dragon  1254   263  0.650000    986
+4   Skeleton  2565   517  0.722222   2226
+5     Minion  1548   124  0.722222   1208
+Waiting for Valkyrie (Need 4 elixir, have 0.50)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 1.00 (1m32s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 8.4 | Raw AirDef: 0.0 | Raw GndDef: 2.0
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.7 | Raw AirDef: 0.0 | Raw GndDef: 7.1
+FlyAtk: 14.2 | WalkAtk: 10.3 | AirDef: -18.2 | GndDef: -0.9 | Win: False
+Role: OFFENSE, Defense Pref: 0.36, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1382  1808  0.700000   2233
+1     Archer  1298   864  0.777778   1681
+2  Barbarian   929  1903  0.777778   2203
+3     Dragon  1254   263  0.700000   1061
+4   Skeleton  2565   517  0.777778   2397
+5     Minion  1548   124  0.777778   1301
+Waiting for Valkyrie (Need 4 elixir, have 1.00)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 1.50 (1m33s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 8.4 | Raw AirDef: 0.0 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 14.2 | WalkAtk: 10.5 | AirDef: 0.0 | GndDef: -0.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.37, Attack Pref: 0.93
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1362   156  0.750000   1139
+1     Archer  1298    75  0.833333   1144
+2  Barbarian   916   165  0.833333    901
+3     Dragon  1254  1767  0.750000   2266
+4   Skeleton  2529    44  0.833333   2145
+5     Minion  1548   839  0.833333   1989
+Waiting for Dragon (Need 4 elixir, have 1.50)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 2.00 (1m34s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 8.4 | Raw AirDef: 0.0 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 14.2 | WalkAtk: 10.5 | AirDef: 0.0 | GndDef: -0.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.37, Attack Pref: 0.93
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1362   156  0.800000   1215
+1     Archer  1298    75  0.888889   1220
+2  Barbarian   916   165  0.888889    961
+3     Dragon  1254  1767  0.800000   2417
+4   Skeleton  2529    44  0.888889   2288
+5     Minion  1548   839  0.888889   2122
+Waiting for Dragon (Need 4 elixir, have 2.00)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 2.50 (1m35s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 20.5 | WalkAtk: 15.4 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.31, Attack Pref: 0.97
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1493    55  0.850000   1340
+1     Archer  1298    26  0.944444   1263
+2  Barbarian  1004    58  0.944444   1031
+3     Dragon  1254  1859  0.850000   3437
+4   Skeleton  2772    15  0.944444   2641
+5     Minion  1548   883  0.944444   2713
+Waiting for Dragon (Need 4 elixir, have 2.50)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 3.00 (1m36s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 20.5 | WalkAtk: 15.4 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.31, Attack Pref: 0.97
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie  1493    55   0.9   1419
+1     Archer  1298    26   1.0   1337
+2  Barbarian  1004    58   1.0   1092
+3     Dragon  1254  1859   0.9   3639
+4   Skeleton  2772    15   1.0   2796
+5     Minion  1548   883   1.0   2872
+Waiting for Dragon (Need 4 elixir, have 3.00)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 3.50 (1m37s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 20.5 | WalkAtk: 15.4 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.31, Attack Pref: 0.97
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie  1493    55  0.95   1498
+1     Archer  1298    26  1.00   1337
+2  Barbarian  1004    58  1.00   1092
+3     Dragon  1254  1859  0.95   3841
+4   Skeleton  2772    15  1.00   2796
+5     Minion  1548   883  1.00   2872
+Waiting for Dragon (Need 4 elixir, have 3.50)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 4.00 (1m38s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 20.5 | WalkAtk: 15.4 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.31, Attack Pref: 0.97
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie  1493    55   1.0   1577
+1     Archer  1298    26   1.0   1337
+2  Barbarian  1004    58   1.0   1092
+3     Dragon  1254  1859   1.0   4043
+4   Skeleton  2772    15   1.0   2796
+5     Minion  1548   883   1.0   2872
+Waiting for Dragon (Need 4 elixir, have 4.00)
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 0.50 (1m39s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 15.5 | WalkAtk: 15.4 | AirDef: -2.2 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.54, Attack Pref: 0.89
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   981  240  0.650000    794
+1     Archer  1298  114  0.722222   1020
+2  Barbarian   660  252  0.722222    659
+3   Skeleton  1822   68  0.722222   1365
+4     Minion  1548  803  0.722222   1698
+5     Wizard  3500  195  0.590909   2183
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 1.00 (1m40s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 15.5 | WalkAtk: 15.4 | AirDef: -2.2 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.54, Attack Pref: 0.89
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   981  240  0.700000    855
+1     Archer  1298  114  0.777778   1098
+2  Barbarian   660  252  0.777778    710
+3   Skeleton  1822   68  0.777778   1470
+4     Minion  1548  803  0.777778   1828
+5     Wizard  3500  195  0.636364   2351
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 1.50 (1m41s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 15.5 | WalkAtk: 15.4 | AirDef: -2.2 | GndDef: -0.3 | Win: False
+Role: NEUTRAL, Defense Pref: 0.54, Attack Pref: 0.89
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   981  240  0.750000    952
+1     Archer  1298  114  0.833333   1196
+2  Barbarian   660  252  0.833333    803
+3   Skeleton  1822   68  0.833333   1587
+4     Minion  1548  803  0.833333   2093
+5     Wizard  3500  195  0.681818   2546
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 2.00 (1m42s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 15.5 | WalkAtk: 15.4 | AirDef: -2.2 | GndDef: -0.3 | Win: False
+Role: NEUTRAL, Defense Pref: 0.54, Attack Pref: 0.89
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   981  240  0.800000   1016
+1     Archer  1298  114  0.888889   1276
+2  Barbarian   660  252  0.888889    856
+3   Skeleton  1822   68  0.888889   1693
+4     Minion  1548  803  0.888889   2232
+5     Wizard  3500  195  0.727273   2715
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 2.50 (1m43s)
+Raw FlyAtk: 15.1 | Raw WalkAtk: 15.1 | Raw AirDef: 3.4 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 2.5 | Raw AirDef: 1.9 | Raw GndDef: 0.0
+FlyAtk: 20.6 | WalkAtk: 20.0 | AirDef: 7.0 | GndDef: -0.3 | Win: False
+Role: DEFENSE, Defense Pref: 0.52, Attack Pref: 0.99
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie  1033   27  0.850000    913
+1     Archer  1298   13  0.944444   1244
+2  Barbarian   694   29  0.944444    697
+3   Skeleton  1918    7  0.944444   1822
+4     Minion  1548  895  0.944444   2730
+5     Wizard  3500   22  0.772727   2730
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 3.00 (1m44s)
+Raw FlyAtk: 15.1 | Raw WalkAtk: 15.1 | Raw AirDef: 3.4 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 2.5 | Raw AirDef: 1.9 | Raw GndDef: 0.0
+FlyAtk: 20.6 | WalkAtk: 20.0 | AirDef: 7.0 | GndDef: -0.3 | Win: False
+Role: DEFENSE, Defense Pref: 0.52, Attack Pref: 0.99
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie  1033   27  0.900000    967
+1     Archer  1298   13  1.000000   1317
+2  Barbarian   694   29  1.000000    738
+3   Skeleton  1918    7  1.000000   1930
+4     Minion  1548  895  1.000000   2890
+5     Wizard  3500   22  0.818182   2891
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 0.50 (1m45s)
+Raw FlyAtk: 6.7 | Raw WalkAtk: 6.7 | Raw AirDef: 3.4 | Raw GndDef: 0.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 6.5 | Raw AirDef: 1.9 | Raw GndDef: 0.6
+FlyAtk: 6.4 | WalkAtk: 8.8 | AirDef: 7.0 | GndDef: -0.7 | Win: False
+Role: OFFENSE, Defense Pref: 0.66, Attack Pref: 0.99
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   722   24  0.650000    485
+1     Archer  1298   11  0.722222    945
+2  Barbarian   485   25  0.722222    369
+3     Minion  1548  896  0.722222   1765
+4     Wizard  3500   19  0.590909   2079
+5      Giant   225   63  0.590909    170
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 1.00 (1m46s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 6.1 | Raw AirDef: 3.2 | Raw GndDef: 0.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 6.5 | Raw AirDef: 1.9 | Raw GndDef: 0.6
+FlyAtk: 5.4 | WalkAtk: 8.0 | AirDef: 6.3 | GndDef: -0.7 | Win: False
+Role: OFFENSE, Defense Pref: 0.67, Attack Pref: 0.99
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   700   29  0.700000    510
+1     Archer  1298   13  0.777778   1020
+2  Barbarian   470   30  0.777778    390
+3     Minion  1548  894  0.777778   1899
+4     Wizard  3500   23  0.636364   2242
+5      Giant   219   75  0.636364    187
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 1.50 (1m47s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 6.1 | Raw AirDef: 3.2 | Raw GndDef: 0.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 6.5 | Raw AirDef: 1.9 | Raw GndDef: 0.6
+FlyAtk: 5.4 | WalkAtk: 8.0 | AirDef: 6.3 | GndDef: -0.7 | Win: False
+Role: OFFENSE, Defense Pref: 0.67, Attack Pref: 0.99
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   700   29  0.750000    547
+1     Archer  1298   13  0.833333   1093
+2  Barbarian   470   30  0.833333    418
+3     Minion  1548  894  0.833333   2035
+4     Wizard  3500   23  0.681818   2402
+5      Giant   219   75  0.681818    201
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 2.00 (1m48s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 6.1 | Raw AirDef: 3.2 | Raw GndDef: 0.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 4.0 | Raw AirDef: 0.0 | Raw GndDef: 0.6
+FlyAtk: 10.3 | WalkAtk: 8.0 | AirDef: 12.8 | GndDef: -0.5 | Win: False
+Role: OFFENSE, Defense Pref: 0.43, Attack Pref: 1.00
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie  1218    6  0.800000    979
+1     Archer  1298    2  0.888889   1156
+2  Barbarian   819    6  0.888889    733
+3     Minion  1548  904  0.888889   2180
+4     Wizard  3500    5  0.727273   2549
+5      Giant   380   16  0.727273    288
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 2.50 (1m49s)
+Raw FlyAtk: 9.2 | Raw WalkAtk: 9.2 | Raw AirDef: 3.2 | Raw GndDef: 1.2
+Raw FlyAtk: 0.0 | Raw WalkAtk: 4.0 | Raw AirDef: 0.0 | Raw GndDef: 0.6
+FlyAtk: 15.6 | WalkAtk: 12.1 | AirDef: 12.8 | GndDef: -0.4 | Win: False
+Role: OFFENSE, Defense Pref: 0.38, Attack Pref: 1.00
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie  1337    6  0.850000   1141
+1     Archer  1298    2  0.944444   1228
+2  Barbarian   899    6  0.944444    855
+3     Minion  1548  904  0.944444   2316
+4     Wizard  3500    5  0.772727   2708
+5      Giant   418   16  0.772727    335
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 3.00 (1m50s)
+Raw FlyAtk: 9.2 | Raw WalkAtk: 9.2 | Raw AirDef: 3.2 | Raw GndDef: 1.2
+Raw FlyAtk: 0.0 | Raw WalkAtk: 4.0 | Raw AirDef: 0.0 | Raw GndDef: 0.6
+FlyAtk: 15.6 | WalkAtk: 12.1 | AirDef: 12.8 | GndDef: -0.4 | Win: False
+Role: OFFENSE, Defense Pref: 0.38, Attack Pref: 1.00
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie  1337    6  0.900000   1209
+1     Archer  1298    2  1.000000   1300
+2  Barbarian   899    6  1.000000    905
+3     Minion  1548  904  1.000000   2452
+4     Wizard  3500    5  0.818182   2867
+5      Giant   418   16  0.818182    355
+Deploying best available troop: None
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 0.50 (1m51s)
+Raw FlyAtk: 8.2 | Raw WalkAtk: 8.2 | Raw AirDef: 2.9 | Raw GndDef: 1.2
+Raw FlyAtk: 3.1 | Raw WalkAtk: 6.3 | Raw AirDef: 0.9 | Raw GndDef: 0.5
+FlyAtk: 11.5 | WalkAtk: 10.8 | AirDef: 3.5 | GndDef: -0.7 | Win: False
+Role: OFFENSE, Defense Pref: 0.51, Attack Pref: 0.97
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1045    57  0.650000    717
+1     Archer  1298    27  0.722222    957
+2  Barbarian   703    60  0.722222    551
+3     Wizard  3500    47  0.590909   2095
+4      Giant   327   149  0.590909    281
+5     Dragon  1254  1857  0.650000   2022
+Waiting for Wizard (Need 5 elixir, have 0.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 1.00 (1m52s)
+Raw FlyAtk: 7.2 | Raw WalkAtk: 7.2 | Raw AirDef: 2.6 | Raw GndDef: 1.2
+Raw FlyAtk: 3.1 | Raw WalkAtk: 4.7 | Raw AirDef: 0.9 | Raw GndDef: 0.2
+FlyAtk: 9.7 | WalkAtk: 9.4 | AirDef: 2.3 | GndDef: -0.5 | Win: False
+Role: OFFENSE, Defense Pref: 0.53, Attack Pref: 0.96
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1002    80  0.700000    758
+1     Archer  1298    38  0.777778   1039
+2  Barbarian   673    85  0.777778    590
+3     Wizard  3500    65  0.636364   2269
+4      Giant   313   209  0.636364    332
+5     Dragon  1254  1836  0.700000   2163
+Waiting for Wizard (Need 5 elixir, have 1.00)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 1.50 (1m53s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 6.1 | Raw AirDef: 2.3 | Raw GndDef: 1.2
+Raw FlyAtk: 3.1 | Raw WalkAtk: 3.5 | Raw AirDef: 0.9 | Raw GndDef: 0.1
+FlyAtk: 8.0 | WalkAtk: 8.1 | AirDef: 1.1 | GndDef: -0.4 | Win: False
+Role: OFFENSE, Defense Pref: 0.55, Attack Pref: 0.95
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   959   111  0.750000    803
+1     Archer  1298    53  0.833333   1126
+2  Barbarian   645   117  0.833333    635
+3     Wizard  3500    90  0.681818   2448
+4      Giant   300   288  0.681818    401
+5     Dragon  1254  1808  0.750000   2297
+Waiting for Wizard (Need 5 elixir, have 1.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 2.00 (1m54s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 6.1 | Raw AirDef: 2.3 | Raw GndDef: 1.2
+Raw FlyAtk: 3.1 | Raw WalkAtk: 3.1 | Raw AirDef: 0.9 | Raw GndDef: 0.0
+FlyAtk: 8.0 | WalkAtk: 8.1 | AirDef: 1.1 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.56, Attack Pref: 0.95
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   958   112  0.800000    857
+1     Archer  1298    53  0.888889   1201
+2  Barbarian   644   118  0.888889    678
+3     Wizard  3500    91  0.727273   2612
+4      Giant   299   292  0.727273    430
+5     Dragon  1254  1807  0.800000   2449
+Waiting for Wizard (Need 5 elixir, have 2.00)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 2.50 (1m55s)
+Raw FlyAtk: 3.1 | Raw WalkAtk: 3.1 | Raw AirDef: 0.0 | Raw GndDef: 1.2
+Raw FlyAtk: 1.0 | Raw WalkAtk: 1.0 | Raw AirDef: 0.3 | Raw GndDef: 0.0
+FlyAtk: 4.5 | WalkAtk: 4.1 | AirDef: -2.7 | GndDef: -0.1 | Win: False
+Role: NEUTRAL, Defense Pref: 0.53, Attack Pref: 0.86
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1008   283  0.850000   1146
+1     Archer  1298   135  0.944444   1379
+2  Barbarian   678   298  0.944444    978
+3     Wizard  3500   230  0.772727   2918
+4      Giant   315   733  0.772727    923
+5     Dragon  1254  1652  0.850000   2751
+Waiting for Wizard (Need 5 elixir, have 2.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 3.00 (1m56s)
+Raw FlyAtk: 3.1 | Raw WalkAtk: 3.1 | Raw AirDef: 0.0 | Raw GndDef: 1.2
+Raw FlyAtk: 1.0 | Raw WalkAtk: 1.0 | Raw AirDef: 0.3 | Raw GndDef: 0.0
+FlyAtk: 4.5 | WalkAtk: 4.1 | AirDef: -2.7 | GndDef: -0.1 | Win: False
+Role: NEUTRAL, Defense Pref: 0.53, Attack Pref: 0.86
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1008   283  0.900000   1213
+1     Archer  1298   135  1.000000   1460
+2  Barbarian   678   298  1.000000   1036
+3     Wizard  3500   230  0.818182   3089
+4      Giant   315   733  0.818182    977
+5     Dragon  1254  1652  0.900000   2912
+Waiting for Wizard (Need 5 elixir, have 3.00)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 3.50 (1m57s)
+Raw FlyAtk: 3.1 | Raw WalkAtk: 5.7 | Raw AirDef: 0.0 | Raw GndDef: 3.7
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.0 | Raw AirDef: 0.0 | Raw GndDef: 0.0
+FlyAtk: 5.3 | WalkAtk: 7.5 | AirDef: 0.0 | GndDef: 0.0 | Win: False
+Role: OFFENSE, Defense Pref: 0.66, Attack Pref: 0.92
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   736   160  0.950000    852
+1     Archer  1298    76  1.000000   1374
+2  Barbarian   495   168  1.000000    664
+3     Wizard  3500   130  0.863636   3135
+4      Giant   230   414  0.863636    557
+5     Dragon  1254  1764  0.950000   2867
+Waiting for Wizard (Need 5 elixir, have 3.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 4.00 (1m58s)
+Raw FlyAtk: 3.1 | Raw WalkAtk: 5.7 | Raw AirDef: 0.0 | Raw GndDef: 3.7
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.0 | Raw AirDef: 0.0 | Raw GndDef: 0.0
+FlyAtk: 5.3 | WalkAtk: 7.5 | AirDef: 0.0 | GndDef: 0.0 | Win: False
+Role: OFFENSE, Defense Pref: 0.66, Attack Pref: 0.92
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   736   160  1.000000    897
+1     Archer  1298    76  1.000000   1374
+2  Barbarian   495   168  1.000000    664
+3     Wizard  3500   130  0.909091   3300
+4      Giant   230   414  0.909091    586
+5     Dragon  1254  1764  1.000000   3018
+Waiting for Wizard (Need 5 elixir, have 4.00)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 4.50 (1m59s)
+Raw FlyAtk: 3.1 | Raw WalkAtk: 5.7 | Raw AirDef: 0.0 | Raw GndDef: 3.7
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.0 | Raw AirDef: 0.0 | Raw GndDef: 0.0
+FlyAtk: 5.3 | WalkAtk: 7.5 | AirDef: 0.0 | GndDef: 0.0 | Win: False
+Role: OFFENSE, Defense Pref: 0.66, Attack Pref: 0.92
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   736   160  1.000000    897
+1     Archer  1298    76  1.000000   1374
+2  Barbarian   495   168  1.000000    664
+3     Wizard  3500   130  0.954545   3465
+4      Giant   230   414  0.954545    616
+5     Dragon  1254  1764  1.000000   3018
+Waiting for Wizard (Need 5 elixir, have 4.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 5.00 (1m0s)
+Raw FlyAtk: 3.1 | Raw WalkAtk: 5.7 | Raw AirDef: 0.0 | Raw GndDef: 3.7
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.0 | Raw AirDef: 0.0 | Raw GndDef: 0.0
+FlyAtk: 5.3 | WalkAtk: 7.5 | AirDef: 0.0 | GndDef: 0.0 | Win: False
+Role: OFFENSE, Defense Pref: 0.66, Attack Pref: 0.92
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie   736   160   1.0    897
+1     Archer  1298    76   1.0   1374
+2  Barbarian   495   168   1.0    664
+3     Wizard  3500   130   1.0   3630
+4      Giant   230   414   1.0    645
+5     Dragon  1254  1764   1.0   3018
+Waiting for Wizard (Need 5 elixir, have 5.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 0.50 (1m1s)
+Raw FlyAtk: 3.1 | Raw WalkAtk: 5.7 | Raw AirDef: 0.0 | Raw GndDef: 3.7
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 5.3 | WalkAtk: 7.3 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.65, Attack Pref: 0.13
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   755  1814  0.650000   1670
+1     Archer  1298   866  0.722222   1563
+2  Barbarian   508  1910  0.722222   1746
+3      Giant   236  4691  0.590909   2911
+4     Dragon  1254   257  0.650000    982
+5   Skeleton  1402   519  0.722222   1388
+Waiting for Giant (Need 5 elixir, have 0.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 1.00 (1m2s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.6 | Raw AirDef: 0.0 | Raw GndDef: 2.5
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 0.0 | WalkAtk: 3.2 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.70, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   647  1813  0.700000   1722
+1     Archer  1298   866  0.777778   1683
+2  Barbarian   435  1909  0.777778   1823
+3      Giant   202  4689  0.636364   3113
+4     Dragon  1254   258  0.700000   1058
+5   Skeleton  1202   518  0.777778   1338
+Waiting for Giant (Need 5 elixir, have 1.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 1.50 (1m3s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.6 | Raw AirDef: 0.0 | Raw GndDef: 2.5
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 0.0 | WalkAtk: 3.2 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: NEUTRAL, Defense Pref: 0.70, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   647  1813  0.750000   2117
+1     Archer  1298   866  0.833333   1948
+2  Barbarian   435  1909  0.833333   2272
+3      Giant   202  4689  0.681818   3974
+4     Dragon  1254   258  0.750000   1173
+5   Skeleton  1202   518  0.833333   1520
+Waiting for Giant (Need 5 elixir, have 1.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 2.00 (1m4s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.6 | Raw AirDef: 0.0 | Raw GndDef: 2.5
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 0.0 | WalkAtk: 3.2 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: NEUTRAL, Defense Pref: 0.70, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   647  1813  0.800000   2258
+1     Archer  1298   866  0.888889   2077
+2  Barbarian   435  1909  0.888889   2423
+3      Giant   202  4689  0.727273   4239
+4     Dragon  1254   258  0.800000   1251
+5   Skeleton  1202   518  0.888889   1621
+Waiting for Giant (Need 5 elixir, have 2.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 2.50 (1m5s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.6 | Raw AirDef: 0.0 | Raw GndDef: 2.5
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 0.0 | WalkAtk: 3.2 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: NEUTRAL, Defense Pref: 0.70, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   647  1813  0.850000   2400
+1     Archer  1298   866  0.944444   2207
+2  Barbarian   435  1909  0.944444   2575
+3      Giant   202  4689  0.772727   4504
+4     Dragon  1254   258  0.850000   1329
+5   Skeleton  1202   518  0.944444   1723
+Waiting for Giant (Need 5 elixir, have 2.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 3.00 (1m6s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.6 | Raw AirDef: 0.0 | Raw GndDef: 2.5
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 0.0 | WalkAtk: 3.2 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: NEUTRAL, Defense Pref: 0.70, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   647  1813  0.900000   2541
+1     Archer  1298   866  1.000000   2337
+2  Barbarian   435  1909  1.000000   2726
+3      Giant   202  4689  0.818182   4769
+4     Dragon  1254   258  0.900000   1407
+5   Skeleton  1202   518  1.000000   1824
+Waiting for Giant (Need 5 elixir, have 3.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 3.50 (1m7s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 11.0 | Raw AirDef: 0.0 | Raw GndDef: 4.6
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 14.2 | WalkAtk: 14.3 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.56, Attack Pref: 0.13
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   955  1814  0.950000   2631
+1     Archer  1298   867  1.000000   2165
+2  Barbarian   642  1910  1.000000   2553
+3      Giant   298  4692  0.863636   4310
+4     Dragon  1254   257  0.950000   1435
+5   Skeleton  1773   519  1.000000   2292
+Waiting for Giant (Need 5 elixir, have 3.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 4.00 (1m8s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 11.0 | Raw AirDef: 0.0 | Raw GndDef: 4.6
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 14.2 | WalkAtk: 14.3 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.56, Attack Pref: 0.13
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   955  1814  1.000000   2770
+1     Archer  1298   867  1.000000   2165
+2  Barbarian   642  1910  1.000000   2553
+3      Giant   298  4692  0.909091   4537
+4     Dragon  1254   257  1.000000   1511
+5   Skeleton  1773   519  1.000000   2292
+Waiting for Giant (Need 5 elixir, have 4.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 4.50 (1m9s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 8.4 | Raw AirDef: 0.0 | Raw GndDef: 2.0
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 14.2 | WalkAtk: 10.9 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.39, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1319  1813  1.000000   3132
+1     Archer  1298   866  1.000000   2164
+2  Barbarian   887  1908  1.000000   2796
+3      Giant   412  4688  0.954545   4869
+4     Dragon  1254   258  1.000000   1512
+5   Skeleton  2448   518  1.000000   2967
+Waiting for Giant (Need 5 elixir, have 4.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 5.00 (1m10s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 8.4 | Raw AirDef: 0.0 | Raw GndDef: 2.0
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 14.2 | WalkAtk: 10.9 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.39, Attack Pref: 0.14
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie  1319  1813   1.0   3132
+1     Archer  1298   866   1.0   2164
+2  Barbarian   887  1908   1.0   2796
+3      Giant   412  4688   1.0   5101
+4     Dragon  1254   258   1.0   1512
+5   Skeleton  2448   518   1.0   2967
+Waiting for Giant (Need 5 elixir, have 5.00)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 0.50 (1m11s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 8.4 | Raw AirDef: 0.0 | Raw GndDef: 2.0
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.7 | Raw AirDef: 0.0 | Raw GndDef: 7.1
+FlyAtk: 14.2 | WalkAtk: 10.3 | AirDef: -18.2 | GndDef: -0.9 | Win: False
+Role: OFFENSE, Defense Pref: 0.36, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1382  1808  0.650000   2073
+1     Archer  1298   864  0.722222   1561
+2  Barbarian   929  1903  0.722222   2046
+3     Dragon  1254   263  0.650000    986
+4   Skeleton  2565   517  0.722222   2226
+5     Minion  1548   124  0.722222   1208
+Waiting for Valkyrie (Need 4 elixir, have 0.50)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 1.00 (1m12s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 8.4 | Raw AirDef: 0.0 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 14.2 | WalkAtk: 10.5 | AirDef: 0.0 | GndDef: -0.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.37, Attack Pref: 0.93
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1362   156  0.700000   1063
+1     Archer  1298    75  0.777778   1067
+2  Barbarian   916   165  0.777778    841
+3     Dragon  1254  1767  0.700000   2114
+4   Skeleton  2529    44  0.777778   2002
+5     Minion  1548   839  0.777778   1856
+Waiting for Dragon (Need 4 elixir, have 1.00)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 1.50 (1m13s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 20.5 | WalkAtk: 15.4 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.31, Attack Pref: 0.97
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1493    55  0.750000   1182
+1     Archer  1298    26  0.833333   1114
+2  Barbarian  1004    58  0.833333    910
+3     Dragon  1254  1859  0.750000   3032
+4   Skeleton  2772    15  0.833333   2330
+5     Minion  1548   883  0.833333   2393
+Waiting for Dragon (Need 4 elixir, have 1.50)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 2.00 (1m14s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 20.5 | WalkAtk: 15.4 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.31, Attack Pref: 0.97
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1493    55  0.800000   1261
+1     Archer  1298    26  0.888889   1189
+2  Barbarian  1004    58  0.888889    970
+3     Dragon  1254  1859  0.800000   3234
+4   Skeleton  2772    15  0.888889   2485
+5     Minion  1548   883  0.888889   2553
+Waiting for Dragon (Need 4 elixir, have 2.00)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 2.50 (1m15s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 20.5 | WalkAtk: 15.4 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.31, Attack Pref: 0.97
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1493    55  0.850000   1340
+1     Archer  1298    26  0.944444   1263
+2  Barbarian  1004    58  0.944444   1031
+3     Dragon  1254  1859  0.850000   3437
+4   Skeleton  2772    15  0.944444   2641
+5     Minion  1548   883  0.944444   2713
+Waiting for Dragon (Need 4 elixir, have 2.50)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 3.00 (1m16s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 20.5 | WalkAtk: 15.4 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.31, Attack Pref: 0.97
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie  1493    55   0.9   1419
+1     Archer  1298    26   1.0   1337
+2  Barbarian  1004    58   1.0   1092
+3     Dragon  1254  1859   0.9   3639
+4   Skeleton  2772    15   1.0   2796
+5     Minion  1548   883   1.0   2872
+Waiting for Dragon (Need 4 elixir, have 3.00)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 3.50 (1m17s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 20.5 | WalkAtk: 15.4 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.31, Attack Pref: 0.97
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie  1493    55  0.95   1498
+1     Archer  1298    26  1.00   1337
+2  Barbarian  1004    58  1.00   1092
+3     Dragon  1254  1859  0.95   3841
+4   Skeleton  2772    15  1.00   2796
+5     Minion  1548   883  1.00   2872
+Waiting for Dragon (Need 4 elixir, have 3.50)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 4.00 (1m18s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 20.5 | WalkAtk: 15.4 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.31, Attack Pref: 0.97
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie  1493    55   1.0   1577
+1     Archer  1298    26   1.0   1337
+2  Barbarian  1004    58   1.0   1092
+3     Dragon  1254  1859   1.0   4043
+4   Skeleton  2772    15   1.0   2796
+5     Minion  1548   883   1.0   2872
+Waiting for Dragon (Need 4 elixir, have 4.00)
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 0.50 (1m19s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.1 | Raw AirDef: 1.1 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 15.5 | WalkAtk: 15.4 | AirDef: -2.2 | GndDef: -0.3 | Win: False
+Role: NEUTRAL, Defense Pref: 0.54, Attack Pref: 0.89
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   981  240  0.650000    825
+1     Archer  1298  114  0.722222   1036
+2  Barbarian   660  252  0.722222    695
+3   Skeleton  1822   68  0.722222   1375
+4     Minion  1548  803  0.722222   1814
+5     Wizard  3500  195  0.590909   2206
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 1.00 (1m20s)
+Raw FlyAtk: 11.5 | Raw WalkAtk: 11.5 | Raw AirDef: 0.9 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 14.5 | WalkAtk: 14.6 | AirDef: -2.9 | GndDef: -0.3 | Win: False
+Role: NEUTRAL, Defense Pref: 0.56, Attack Pref: 0.87
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   957  281  0.700000    906
+1     Archer  1298  134  0.777778   1135
+2  Barbarian   643  296  0.777778    777
+3   Skeleton  1777   80  0.777778   1457
+4     Minion  1548  785  0.777778   1936
+5     Wizard  3500  229  0.636364   2402
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 1.50 (1m21s)
+Raw FlyAtk: 14.5 | Raw WalkAtk: 14.5 | Raw AirDef: 3.2 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 19.5 | WalkAtk: 18.6 | AirDef: 6.3 | GndDef: -0.3 | Win: False
+Role: DEFENSE, Defense Pref: 0.50, Attack Pref: 0.98
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie  1076   32  0.750000    843
+1     Archer  1298   15  0.833333   1100
+2  Barbarian   723   34  0.833333    645
+3   Skeleton  1997    9  0.833333   1676
+4     Minion  1548  893  0.833333   2406
+5     Wizard  3500   26  0.681818   2413
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 2.00 (1m22s)
+Raw FlyAtk: 13.5 | Raw WalkAtk: 13.5 | Raw AirDef: 2.9 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 17.8 | WalkAtk: 17.2 | AirDef: 5.1 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.52, Attack Pref: 0.98
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie  1035   43  0.800000    863
+1     Archer  1298   20  0.888889   1172
+2  Barbarian   696   45  0.888889    659
+3   Skeleton  1921   12  0.888889   1719
+4     Minion  1548  888  0.888889   2165
+5     Wizard  3500   35  0.727273   2571
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 2.50 (1m23s)
+Raw FlyAtk: 12.4 | Raw WalkAtk: 12.4 | Raw AirDef: 2.6 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 16.1 | WalkAtk: 15.8 | AirDef: 3.9 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.54, Attack Pref: 0.97
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   994   58  0.850000    895
+1     Archer  1298   27  0.944444   1252
+2  Barbarian   668   61  0.944444    689
+3   Skeleton  1846   16  0.944444   1759
+4     Minion  1548  881  0.944444   2294
+5     Wizard  3500   47  0.772727   2741
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 3.00 (1m24s)
+Raw FlyAtk: 12.4 | Raw WalkAtk: 12.4 | Raw AirDef: 2.6 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 16.1 | WalkAtk: 15.8 | AirDef: 3.9 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.54, Attack Pref: 0.97
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   994   58  0.900000    947
+1     Archer  1298   27  1.000000   1325
+2  Barbarian   668   61  1.000000    730
+3   Skeleton  1846   16  1.000000   1862
+4     Minion  1548  881  1.000000   2429
+5     Wizard  3500   47  0.818182   2902
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 0.50 (1m25s)
+Raw FlyAtk: 11.4 | Raw WalkAtk: 11.4 | Raw AirDef: 2.3 | Raw GndDef: 2.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 7.2 | Raw AirDef: 1.9 | Raw GndDef: 6.0
+FlyAtk: 14.3 | WalkAtk: 14.4 | AirDef: 2.6 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.55, Attack Pref: 0.97
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   961   70  0.650000    670
+1     Archer  1298   33  0.722222    961
+2  Barbarian   646   73  0.722222    520
+3     Minion  1548  876  0.722222   1751
+4     Wizard  3500   57  0.590909   2101
+5      Giant   300  181  0.590909    284
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 1.00 (1m26s)
+Raw FlyAtk: 3.0 | Raw WalkAtk: 3.0 | Raw AirDef: 2.3 | Raw GndDef: 0.0
+Raw FlyAtk: 2.5 | Raw WalkAtk: 6.1 | Raw AirDef: 1.9 | Raw GndDef: 0.5
+FlyAtk: 0.1 | WalkAtk: 3.9 | AirDef: 2.6 | GndDef: -0.7 | Win: False
+Role: OFFENSE, Defense Pref: 0.72, Attack Pref: 0.97
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   596   71  0.700000    468
+1     Archer  1298   34  0.777778   1036
+2  Barbarian   401   75  0.777778    370
+3     Minion  1548  876  0.777778   1885
+4     Wizard  3500   58  0.636364   2264
+5      Giant   186  185  0.636364    237
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 1.50 (1m27s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 6.1 | Raw AirDef: 2.3 | Raw GndDef: 1.2
+Raw FlyAtk: 2.5 | Raw WalkAtk: 5.3 | Raw AirDef: 1.9 | Raw GndDef: 0.4
+FlyAtk: 5.4 | WalkAtk: 8.1 | AirDef: 2.6 | GndDef: -0.6 | Win: False
+Role: OFFENSE, Defense Pref: 0.68, Attack Pref: 0.96
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   699   73  0.750000    579
+1     Archer  1298   35  0.833333   1111
+2  Barbarian   470   77  0.833333    456
+3     Minion  1548  875  0.833333   2019
+4     Wizard  3500   59  0.681818   2427
+5      Giant   218  190  0.681818    279
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 2.00 (1m28s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 6.1 | Raw AirDef: 2.3 | Raw GndDef: 1.2
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.7 | Raw AirDef: 1.9 | Raw GndDef: 0.2
+FlyAtk: 5.4 | WalkAtk: 8.1 | AirDef: 2.6 | GndDef: -0.4 | Win: False
+Role: OFFENSE, Defense Pref: 0.68, Attack Pref: 0.96
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   696   77  0.800000    618
+1     Archer  1298   36  0.888889   1186
+2  Barbarian   468   81  0.888889    488
+3     Minion  1548  873  0.888889   2152
+4     Wizard  3500   62  0.727273   2591
+5      Giant   217  199  0.727273    303
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 2.50 (1m29s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 6.1 | Raw AirDef: 2.3 | Raw GndDef: 1.2
+Raw FlyAtk: 2.5 | Raw WalkAtk: 2.5 | Raw AirDef: 1.9 | Raw GndDef: 0.0
+FlyAtk: 5.4 | WalkAtk: 8.1 | AirDef: 2.6 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.68, Attack Pref: 0.96
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   694   79  0.850000    658
+1     Archer  1298   38  0.944444   1261
+2  Barbarian   467   83  0.944444    520
+3     Minion  1548  872  0.944444   2286
+4     Wizard  3500   64  0.772727   2754
+5      Giant   217  206  0.772727    327
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Skeleton'] | ['Valkyrie', 'Archer', 'Barbarian', 'Minion'] 3.00 (2m30s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 6.1 | Raw AirDef: 2.3 | Raw GndDef: 1.2
+Raw FlyAtk: 2.5 | Raw WalkAtk: 2.5 | Raw AirDef: 1.9 | Raw GndDef: 0.0
+FlyAtk: 5.4 | WalkAtk: 8.1 | AirDef: 2.6 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.68, Attack Pref: 0.96
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   694   79  0.900000    696
+1     Archer  1298   38  1.000000   1336
+2  Barbarian   467   83  1.000000    550
+3     Minion  1548  872  1.000000   2420
+4     Wizard  3500   64  0.818182   2916
+5      Giant   217  206  0.818182    346
+Deploying best available troop: None
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 0.50 (2m31s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 6.1 | Raw AirDef: 2.3 | Raw GndDef: 1.2
+Raw FlyAtk: 5.6 | Raw WalkAtk: 5.6 | Raw AirDef: 2.8 | Raw GndDef: 0.0
+FlyAtk: 3.0 | WalkAtk: 8.1 | AirDef: -5.4 | GndDef: -0.6 | Win: False
+Role: OFFENSE, Defense Pref: 0.77, Attack Pref: 0.79
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   493   446  0.650000    610
+1     Archer  1298   213  0.722222   1091
+2  Barbarian   331   469  0.722222    578
+3     Wizard  3500   362  0.590909   2282
+4      Giant   154  1154  0.590909    773
+5     Dragon  1254  1503  0.650000   1792
+Waiting for Wizard (Need 5 elixir, have 0.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 1.00 (2m32s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 6.1 | Raw AirDef: 2.3 | Raw GndDef: 1.2
+Raw FlyAtk: 3.1 | Raw WalkAtk: 3.1 | Raw AirDef: 0.9 | Raw GndDef: 0.0
+FlyAtk: 8.0 | WalkAtk: 8.1 | AirDef: 1.1 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.56, Attack Pref: 0.95
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   958   112  0.700000    750
+1     Archer  1298    53  0.777778   1051
+2  Barbarian   644   118  0.777778    593
+3     Wizard  3500    91  0.636364   2285
+4      Giant   299   292  0.636364    376
+5     Dragon  1254  1807  0.700000   2143
+Waiting for Wizard (Need 5 elixir, have 1.00)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 1.50 (2m33s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 6.1 | Raw AirDef: 2.3 | Raw GndDef: 1.2
+Raw FlyAtk: 3.1 | Raw WalkAtk: 3.1 | Raw AirDef: 0.9 | Raw GndDef: 0.0
+FlyAtk: 8.0 | WalkAtk: 8.1 | AirDef: 1.1 | GndDef: -0.3 | Win: False
+Role: NEUTRAL, Defense Pref: 0.56, Attack Pref: 0.95
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   958   112  0.750000    820
+1     Archer  1298    53  0.833333   1135
+2  Barbarian   644   118  0.833333    656
+3     Wizard  3500    91  0.681818   2461
+4      Giant   299   292  0.681818    443
+5     Dragon  1254  1807  0.750000   2567
+Deploying best available troop: None
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 2.00 (2m34s)
+Raw FlyAtk: 5.6 | Raw WalkAtk: 5.6 | Raw AirDef: 1.9 | Raw GndDef: 1.2
+Raw FlyAtk: 3.1 | Raw WalkAtk: 3.1 | Raw AirDef: 0.9 | Raw GndDef: 0.0
+FlyAtk: 7.1 | WalkAtk: 7.4 | AirDef: -0.4 | GndDef: -0.3 | Win: False
+Role: NEUTRAL, Defense Pref: 0.56, Attack Pref: 0.92
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   939   161  0.800000    906
+1     Archer  1298    77  0.888889   1236
+2  Barbarian   631   169  0.888889    742
+3     Wizard  3500   131  0.727273   2660
+4      Giant   293   417  0.727273    577
+5     Dragon  1254  1763  0.800000   2696
+Deploying best available troop: None
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 2.50 (2m35s)
+Raw FlyAtk: 5.6 | Raw WalkAtk: 8.2 | Raw AirDef: 1.9 | Raw GndDef: 3.7
+Raw FlyAtk: 2.1 | Raw WalkAtk: 2.1 | Raw AirDef: 0.6 | Raw GndDef: 0.0
+FlyAtk: 7.9 | WalkAtk: 10.9 | AirDef: 2.3 | GndDef: -0.2 | Win: False
+Role: OFFENSE, Defense Pref: 0.69, Attack Pref: 0.96
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   674    88  0.850000    649
+1     Archer  1298    42  0.944444   1265
+2  Barbarian   453    93  0.944444    516
+3     Wizard  3500    72  0.772727   2760
+4      Giant   211   229  0.772727    340
+5     Dragon  1254  1829  0.850000   2621
+Waiting for Wizard (Need 5 elixir, have 2.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 3.00 (2m36s)
+Raw FlyAtk: 4.1 | Raw WalkAtk: 6.7 | Raw AirDef: 1.9 | Raw GndDef: 3.1
+Raw FlyAtk: 1.0 | Raw WalkAtk: 1.0 | Raw AirDef: 0.3 | Raw GndDef: 0.0
+FlyAtk: 6.1 | WalkAtk: 8.8 | AirDef: 5.0 | GndDef: -0.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.68, Attack Pref: 0.98
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   694    47  0.900000    668
+1     Archer  1298    22  1.000000   1320
+2  Barbarian   467    50  1.000000    517
+3     Wizard  3500    38  0.818182   2895
+4      Giant   217   123  0.818182    278
+5     Dragon  1254  1867  0.900000   2808
+Waiting for Wizard (Need 5 elixir, have 3.00)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 3.50 (2m37s)
+Raw FlyAtk: 4.1 | Raw WalkAtk: 6.7 | Raw AirDef: 1.9 | Raw GndDef: 3.1
+Raw FlyAtk: 1.0 | Raw WalkAtk: 1.0 | Raw AirDef: 0.3 | Raw GndDef: 0.0
+FlyAtk: 6.1 | WalkAtk: 8.8 | AirDef: 5.0 | GndDef: -0.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.68, Attack Pref: 0.98
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   694    47  0.950000    705
+1     Archer  1298    22  1.000000   1320
+2  Barbarian   467    50  1.000000    517
+3     Wizard  3500    38  0.863636   3056
+4      Giant   217   123  0.863636    294
+5     Dragon  1254  1867  0.950000   2964
+Waiting for Wizard (Need 5 elixir, have 3.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 4.00 (2m38s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.6 | Raw AirDef: 0.0 | Raw GndDef: 2.5
+Raw FlyAtk: 1.0 | Raw WalkAtk: 1.0 | Raw AirDef: 0.3 | Raw GndDef: 0.0
+FlyAtk: -0.8 | WalkAtk: 3.4 | AirDef: -2.7 | GndDef: -0.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.74, Attack Pref: 0.86
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   562   284  1.000000    846
+1     Archer  1298   135  1.000000   1433
+2  Barbarian   378   299  1.000000    677
+3     Wizard  3500   231  0.909091   3391
+4      Giant   175   735  0.909091    828
+5     Dragon  1254  1651  1.000000   2905
+Waiting for Wizard (Need 5 elixir, have 4.00)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 4.50 (2m39s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.6 | Raw AirDef: 0.0 | Raw GndDef: 2.5
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.0 | Raw AirDef: 0.0 | Raw GndDef: 0.0
+FlyAtk: 0.0 | WalkAtk: 3.4 | AirDef: 0.0 | GndDef: 0.0 | Win: False
+Role: OFFENSE, Defense Pref: 0.71, Attack Pref: 0.92
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   630   160  1.000000    790
+1     Archer  1298    76  1.000000   1374
+2  Barbarian   423   168  1.000000    592
+3     Wizard  3500   130  0.954545   3465
+4      Giant   197   413  0.954545    583
+5     Dragon  1254  1764  1.000000   3018
+Waiting for Wizard (Need 5 elixir, have 4.50)
+
+['Giant', 'Dragon', 'Skeleton', 'Minion'] | ['Valkyrie', 'Archer', 'Barbarian', 'Wizard'] 5.00 (2m40s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.6 | Raw AirDef: 0.0 | Raw GndDef: 2.5
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.0 | Raw AirDef: 0.0 | Raw GndDef: 0.0
+FlyAtk: 0.0 | WalkAtk: 3.4 | AirDef: 0.0 | GndDef: 0.0 | Win: False
+Role: OFFENSE, Defense Pref: 0.71, Attack Pref: 0.92
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie   630   160   1.0    790
+1     Archer  1298    76   1.0   1374
+2  Barbarian   423   168   1.0    592
+3     Wizard  3500   130   1.0   3630
+4      Giant   197   413   1.0    610
+5     Dragon  1254  1764   1.0   3018
+Waiting for Wizard (Need 5 elixir, have 5.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 0.50 (2m41s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.6 | Raw AirDef: 0.0 | Raw GndDef: 2.5
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 0.0 | WalkAtk: 3.2 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: NEUTRAL, Defense Pref: 0.70, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   647  1813  0.650000   1835
+1     Archer  1298   866  0.722222   1688
+2  Barbarian   435  1909  0.722222   1969
+3      Giant   202  4689  0.590909   3444
+4     Dragon  1254   258  0.650000   1016
+5   Skeleton  1202   518  0.722222   1317
+Waiting for Giant (Need 5 elixir, have 0.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 1.00 (2m42s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.6 | Raw AirDef: 0.0 | Raw GndDef: 2.5
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 0.0 | WalkAtk: 3.2 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: NEUTRAL, Defense Pref: 0.70, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   647  1813  0.700000   1976
+1     Archer  1298   866  0.777778   1818
+2  Barbarian   435  1909  0.777778   2120
+3      Giant   202  4689  0.636364   3709
+4     Dragon  1254   258  0.700000   1094
+5   Skeleton  1202   518  0.777778   1419
+Waiting for Giant (Need 5 elixir, have 1.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 1.50 (2m43s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.6 | Raw AirDef: 0.0 | Raw GndDef: 2.5
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 0.0 | WalkAtk: 3.2 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: NEUTRAL, Defense Pref: 0.70, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   647  1813  0.750000   2117
+1     Archer  1298   866  0.833333   1948
+2  Barbarian   435  1909  0.833333   2272
+3      Giant   202  4689  0.681818   3974
+4     Dragon  1254   258  0.750000   1173
+5   Skeleton  1202   518  0.833333   1520
+Waiting for Giant (Need 5 elixir, have 1.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 2.00 (2m44s)
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.6 | Raw AirDef: 0.0 | Raw GndDef: 2.5
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 0.0 | WalkAtk: 3.2 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: NEUTRAL, Defense Pref: 0.70, Attack Pref: 0.14
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   647  1813  0.800000   2258
+1     Archer  1298   866  0.888889   2077
+2  Barbarian   435  1909  0.888889   2423
+3      Giant   202  4689  0.727273   4239
+4     Dragon  1254   258  0.800000   1251
+5   Skeleton  1202   518  0.888889   1621
+Waiting for Giant (Need 5 elixir, have 2.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 2.50 (2m45s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 11.0 | Raw AirDef: 0.0 | Raw GndDef: 4.6
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 14.2 | WalkAtk: 14.3 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.56, Attack Pref: 0.13
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   955  1814  0.850000   2354
+1     Archer  1298   867  0.944444   2044
+2  Barbarian   642  1910  0.944444   2411
+3      Giant   298  4692  0.772727   3857
+4     Dragon  1254   257  0.850000   1284
+5   Skeleton  1773   519  0.944444   2165
+Waiting for Giant (Need 5 elixir, have 2.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 3.00 (2m46s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 11.0 | Raw AirDef: 0.0 | Raw GndDef: 4.6
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 14.2 | WalkAtk: 14.3 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.56, Attack Pref: 0.13
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   955  1814  0.900000   2493
+1     Archer  1298   867  1.000000   2165
+2  Barbarian   642  1910  1.000000   2553
+3      Giant   298  4692  0.818182   4083
+4     Dragon  1254   257  0.900000   1360
+5   Skeleton  1773   519  1.000000   2292
+Waiting for Giant (Need 5 elixir, have 3.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 3.50 (2m47s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 10.6 | Raw AirDef: 0.0 | Raw GndDef: 4.1
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 14.2 | WalkAtk: 13.8 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.53, Attack Pref: 0.13
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1016  1814  0.950000   2689
+1     Archer  1298   866  1.000000   2164
+2  Barbarian   683  1910  1.000000   2593
+3      Giant   317  4691  0.863636   4326
+4     Dragon  1254   257  0.950000   1435
+5   Skeleton  1886   519  1.000000   2405
+Waiting for Giant (Need 5 elixir, have 3.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 4.00 (2m48s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 10.6 | Raw AirDef: 0.0 | Raw GndDef: 4.1
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 14.2 | WalkAtk: 13.8 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.53, Attack Pref: 0.13
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1016  1814  1.000000   2830
+1     Archer  1298   866  1.000000   2164
+2  Barbarian   683  1910  1.000000   2593
+3      Giant   317  4691  0.909091   4554
+4     Dragon  1254   257  1.000000   1511
+5   Skeleton  1886   519  1.000000   2405
+Waiting for Giant (Need 5 elixir, have 4.00)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 4.50 (2m49s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 10.6 | Raw AirDef: 0.0 | Raw GndDef: 4.1
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 14.2 | WalkAtk: 13.8 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.53, Attack Pref: 0.13
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1016  1814  1.000000   2830
+1     Archer  1298   866  1.000000   2164
+2  Barbarian   683  1910  1.000000   2593
+3      Giant   317  4691  0.954545   4782
+4     Dragon  1254   257  1.000000   1511
+5   Skeleton  1886   519  1.000000   2405
+Waiting for Giant (Need 5 elixir, have 4.50)
+
+['Dragon', 'Skeleton', 'Minion', 'Wizard'] | ['Valkyrie', 'Archer', 'Barbarian', 'Giant'] 5.00 (2m50s)
+Raw FlyAtk: 8.4 | Raw WalkAtk: 10.6 | Raw AirDef: 0.0 | Raw GndDef: 4.1
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.0 | Raw AirDef: 0.0 | Raw GndDef: 1.7
+FlyAtk: 14.2 | WalkAtk: 13.8 | AirDef: -18.2 | GndDef: -0.8 | Win: False
+Role: OFFENSE, Defense Pref: 0.53, Attack Pref: 0.13
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie  1016  1814   1.0   2830
+1     Archer  1298   866   1.0   2164
+2  Barbarian   683  1910   1.0   2593
+3      Giant   317  4691   1.0   5009
+4     Dragon  1254   257   1.0   1511
+5   Skeleton  1886   519   1.0   2405
+Waiting for Giant (Need 5 elixir, have 5.00)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 0.50 (2m51s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 14.3 | Raw AirDef: 1.1 | Raw GndDef: 4.1
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.7 | Raw AirDef: 0.0 | Raw GndDef: 7.1
+FlyAtk: 20.5 | WalkAtk: 18.1 | AirDef: -13.8 | GndDef: -0.8 | Win: False
+Role: DEFENSE, Defense Pref: 0.43, Attack Pref: 0.32
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1229  1424  0.650000   2188
+1     Archer  1298   680  0.722222   1674
+2  Barbarian   826  1500  0.722222   2222
+3     Dragon  1254   612  0.650000   1412
+4   Skeleton  2282   407  0.722222   2090
+5     Minion  1548   290  0.722222   1433
+Waiting for Barbarian (Need 3 elixir, have 0.50)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 1.00 (2m52s)
+Raw FlyAtk: 3.7 | Raw WalkAtk: 5.9 | Raw AirDef: 1.1 | Raw GndDef: 2.1
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 6.3 | WalkAtk: 7.1 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.59, Attack Pref: 0.97
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   879    55  0.700000    654
+1     Archer  1298    26  0.777778   1030
+2  Barbarian   591    58  0.777778    505
+3     Dragon  1254  1859  0.700000   2179
+4   Skeleton  1632    15  0.777778   1281
+5     Minion  1548   883  0.777778   1890
+Waiting for Dragon (Need 4 elixir, have 1.00)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 1.50 (2m53s)
+Raw FlyAtk: 3.7 | Raw WalkAtk: 5.9 | Raw AirDef: 1.1 | Raw GndDef: 2.1
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 6.3 | WalkAtk: 7.1 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.59, Attack Pref: 0.97
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   879    55  0.750000    701
+1     Archer  1298    26  0.833333   1103
+2  Barbarian   591    58  0.833333    541
+3     Dragon  1254  1859  0.750000   2335
+4   Skeleton  1632    15  0.833333   1373
+5     Minion  1548   883  0.833333   2025
+Waiting for Dragon (Need 4 elixir, have 1.50)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 2.00 (2m54s)
+Raw FlyAtk: 3.7 | Raw WalkAtk: 5.9 | Raw AirDef: 1.1 | Raw GndDef: 2.1
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 6.3 | WalkAtk: 7.1 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.59, Attack Pref: 0.97
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   879    55  0.800000    747
+1     Archer  1298    26  0.888889   1177
+2  Barbarian   591    58  0.888889    577
+3     Dragon  1254  1859  0.800000   2491
+4   Skeleton  1632    15  0.888889   1464
+5     Minion  1548   883  0.888889   2161
+Waiting for Dragon (Need 4 elixir, have 2.00)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 2.50 (2m55s)
+Raw FlyAtk: 3.7 | Raw WalkAtk: 5.9 | Raw AirDef: 1.1 | Raw GndDef: 2.1
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 6.3 | WalkAtk: 7.1 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.59, Attack Pref: 0.97
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   879    55  0.850000    794
+1     Archer  1298    26  0.944444   1250
+2  Barbarian   591    58  0.944444    613
+3     Dragon  1254  1859  0.850000   2646
+4   Skeleton  1632    15  0.944444   1556
+5     Minion  1548   883  0.944444   2296
+Waiting for Dragon (Need 4 elixir, have 2.50)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 3.00 (2m56s)
+Raw FlyAtk: 3.7 | Raw WalkAtk: 5.9 | Raw AirDef: 1.1 | Raw GndDef: 2.1
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 6.3 | WalkAtk: 7.1 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.59, Attack Pref: 0.97
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie   879    55   0.9    841
+1     Archer  1298    26   1.0   1324
+2  Barbarian   591    58   1.0    649
+3     Dragon  1254  1859   0.9   2802
+4   Skeleton  1632    15   1.0   1647
+5     Minion  1548   883   1.0   2431
+Waiting for Dragon (Need 4 elixir, have 3.00)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 3.50 (2m57s)
+Raw FlyAtk: 3.7 | Raw WalkAtk: 5.9 | Raw AirDef: 1.1 | Raw GndDef: 2.1
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 6.3 | WalkAtk: 7.1 | AirDef: 4.4 | GndDef: -0.1 | Win: False
+Role: NEUTRAL, Defense Pref: 0.59, Attack Pref: 0.97
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie   879    55  0.95    898
+1     Archer  1298    26  1.00   1329
+2  Barbarian   591    58  1.00    661
+3     Dragon  1254  1859  0.95   3311
+4   Skeleton  1632    15  1.00   1651
+5     Minion  1548   883  1.00   2607
+Waiting for Dragon (Need 4 elixir, have 3.50)
+
+['Skeleton', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Archer', 'Barbarian', 'Dragon'] 4.00 (2m58s)
+Raw FlyAtk: 3.3 | Raw WalkAtk: 5.5 | Raw AirDef: 1.0 | Raw GndDef: 2.1
+Raw FlyAtk: 0.0 | Raw WalkAtk: 0.7 | Raw AirDef: 0.0 | Raw GndDef: 5.4
+FlyAtk: 5.6 | WalkAtk: 6.6 | AirDef: 3.9 | GndDef: -0.1 | Win: False
+Role: NEUTRAL, Defense Pref: 0.60, Attack Pref: 0.97
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie   863    62   1.0    938
+1     Archer  1298    29   1.0   1333
+2  Barbarian   580    65   1.0    659
+3     Dragon  1254  1853   1.0   3478
+4   Skeleton  1602    17   1.0   1624
+5     Minion  1548   880   1.0   2604
+Waiting for Dragon (Need 4 elixir, have 4.00)
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 0.50 (2m59s)
+Raw FlyAtk: 6.3 | Raw WalkAtk: 8.5 | Raw AirDef: 3.3 | Raw GndDef: 2.1
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 5.7 | WalkAtk: 10.6 | AirDef: 6.5 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.76, Attack Pref: 0.99
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   508   30  0.650000    350
+1     Archer  1298   14  0.722222    947
+2  Barbarian   341   32  0.722222    270
+3   Skeleton   943    8  0.722222    688
+4     Minion  1548  894  0.722222   1763
+5     Wizard  3500   24  0.590909   2082
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 1.00 (2m0s)
+Raw FlyAtk: 6.3 | Raw WalkAtk: 8.9 | Raw AirDef: 3.3 | Raw GndDef: 2.5
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 5.7 | WalkAtk: 11.1 | AirDef: 6.5 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.78, Attack Pref: 0.99
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   465   30  0.700000    347
+1     Archer  1298   14  0.777778   1020
+2  Barbarian   313   32  0.777778    268
+3   Skeleton   864    8  0.777778    678
+4     Minion  1548  893  0.777778   1899
+5     Wizard  3500   24  0.636364   2243
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 2.00 (2m1s)
+Raw FlyAtk: 4.2 | Raw WalkAtk: 6.8 | Raw AirDef: 2.7 | Raw GndDef: 2.5
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 2.2 | WalkAtk: 8.4 | AirDef: 4.1 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.81, Attack Pref: 0.97
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   412   55  0.800000    374
+1     Archer  1298   26  0.888889   1177
+2  Barbarian   277   58  0.888889    298
+3   Skeleton   765   15  0.888889    694
+4     Minion  1548  883  0.888889   2161
+5     Wizard  3500   44  0.727273   2578
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Archer', 'Barbarian', 'Skeleton'] 3.00 (2m2s)
+Raw FlyAtk: 4.2 | Raw WalkAtk: 6.8 | Raw AirDef: 2.7 | Raw GndDef: 2.5
+Raw FlyAtk: 2.5 | Raw WalkAtk: 3.2 | Raw AirDef: 1.9 | Raw GndDef: 5.4
+FlyAtk: 2.2 | WalkAtk: 8.4 | AirDef: 4.1 | GndDef: -0.3 | Win: False
+Role: OFFENSE, Defense Pref: 0.81, Attack Pref: 0.97
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   412   55  0.900000    421
+1     Archer  1298   26  1.000000   1324
+2  Barbarian   277   58  1.000000    335
+3   Skeleton   765   15  1.000000    781
+4     Minion  1548  883  1.000000   2431
+5     Wizard  3500   44  0.818182   2900
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Archer'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Minion'] 1.00 (2m3s)
+Raw FlyAtk: 7.4 | Raw WalkAtk: 9.9 | Raw AirDef: 2.7 | Raw GndDef: 3.7
+Raw FlyAtk: 5.1 | Raw WalkAtk: 5.8 | Raw AirDef: 1.9 | Raw GndDef: 6.4
+FlyAtk: 7.5 | WalkAtk: 12.4 | AirDef: -2.6 | GndDef: -0.6 | Win: False
+Role: OFFENSE, Defense Pref: 0.77, Attack Pref: 0.88
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   503  251  0.700000    528
+1  Barbarian   338  264  0.777778    468
+2   Skeleton   934   71  0.777778    782
+3     Minion  1548  798  0.777778   1825
+4     Wizard  3500  204  0.636364   2357
+5      Giant   157  649  0.636364    513
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Archer'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Minion'] 2.00 (2m4s)
+Raw FlyAtk: 7.4 | Raw WalkAtk: 9.9 | Raw AirDef: 2.7 | Raw GndDef: 3.7
+Raw FlyAtk: 5.1 | Raw WalkAtk: 5.8 | Raw AirDef: 1.9 | Raw GndDef: 6.4
+FlyAtk: 7.5 | WalkAtk: 12.4 | AirDef: -2.6 | GndDef: -0.6 | Win: False
+Role: OFFENSE, Defense Pref: 0.77, Attack Pref: 0.88
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   503  251  0.800000    603
+1  Barbarian   338  264  0.888889    535
+2   Skeleton   934   71  0.888889    894
+3     Minion  1548  798  0.888889   2085
+4     Wizard  3500  204  0.727273   2693
+5      Giant   157  649  0.727273    586
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Archer'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Minion'] 3.00 (2m5s)
+Raw FlyAtk: 7.4 | Raw WalkAtk: 9.9 | Raw AirDef: 2.7 | Raw GndDef: 3.7
+Raw FlyAtk: 5.1 | Raw WalkAtk: 5.8 | Raw AirDef: 1.9 | Raw GndDef: 6.4
+FlyAtk: 7.5 | WalkAtk: 12.4 | AirDef: -2.6 | GndDef: -0.6 | Win: False
+Role: OFFENSE, Defense Pref: 0.77, Attack Pref: 0.88
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   503  251  0.900000    678
+1  Barbarian   338  264  1.000000    602
+2   Skeleton   934   71  1.000000   1005
+3     Minion  1548  798  1.000000   2346
+4     Wizard  3500  204  0.818182   3030
+5      Giant   157  649  0.818182    660
+Deploying best available troop: None
+
+['Giant', 'Dragon', 'Archer', 'Minion'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Wizard'] 1.00 (2m6s)
+Raw FlyAtk: 7.4 | Raw WalkAtk: 9.9 | Raw AirDef: 2.7 | Raw GndDef: 3.7
+Raw FlyAtk: 8.2 | Raw WalkAtk: 8.9 | Raw AirDef: 2.8 | Raw GndDef: 6.4
+FlyAtk: 5.1 | WalkAtk: 12.4 | AirDef: -10.7 | GndDef: -1.0 | Win: False
+Role: NEUTRAL, Defense Pref: 0.84, Attack Pref: 0.52
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   344  1011  0.700000   1090
+1  Barbarian   231  1064  0.777778   1173
+2   Skeleton   638   289  0.777778    766
+3     Wizard  3500   822  0.636364   2855
+4      Giant   107  2614  0.636364   2065
+5     Dragon  1254   989  0.700000   1708
+Waiting for Wizard (Need 5 elixir, have 1.00)
+
+['Giant', 'Dragon', 'Archer', 'Minion'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Wizard'] 2.00 (2m7s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 11.3 | Raw AirDef: 2.3 | Raw GndDef: 6.2
+Raw FlyAtk: 8.2 | Raw WalkAtk: 8.9 | Raw AirDef: 2.8 | Raw GndDef: 6.4
+FlyAtk: 3.0 | WalkAtk: 14.2 | AirDef: -12.1 | GndDef: -1.0 | Win: False
+Role: OFFENSE, Defense Pref: 0.92, Attack Pref: 0.43
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   173  1203  0.800000   1101
+1  Barbarian   116  1267  0.888889   1230
+2   Skeleton   322   344  0.888889    592
+3     Wizard  3500   978  0.727273   3257
+4      Giant    54  3112  0.727273   2303
+5     Dragon  1254   813  0.800000   1654
+Waiting for Wizard (Need 5 elixir, have 2.00)
+
+['Giant', 'Dragon', 'Archer', 'Minion'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Wizard'] 3.00 (2m8s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 11.3 | Raw AirDef: 2.3 | Raw GndDef: 6.2
+Raw FlyAtk: 8.2 | Raw WalkAtk: 8.9 | Raw AirDef: 2.8 | Raw GndDef: 6.4
+FlyAtk: 3.0 | WalkAtk: 14.2 | AirDef: -12.1 | GndDef: -1.0 | Win: False
+Role: OFFENSE, Defense Pref: 0.92, Attack Pref: 0.43
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   173  1203  0.900000   1239
+1  Barbarian   116  1267  1.000000   1383
+2   Skeleton   322   344  1.000000    666
+3     Wizard  3500   978  0.818182   3664
+4      Giant    54  3112  0.818182   2590
+5     Dragon  1254   813  0.900000   1861
+Waiting for Wizard (Need 5 elixir, have 3.00)
+
+['Giant', 'Dragon', 'Archer', 'Minion'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Wizard'] 4.00 (2m9s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 11.3 | Raw AirDef: 2.3 | Raw GndDef: 6.2
+Raw FlyAtk: 8.2 | Raw WalkAtk: 8.9 | Raw AirDef: 2.8 | Raw GndDef: 6.4
+FlyAtk: 3.0 | WalkAtk: 14.2 | AirDef: -12.1 | GndDef: -1.0 | Win: False
+Role: OFFENSE, Defense Pref: 0.92, Attack Pref: 0.43
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   173  1203  1.000000   1377
+1  Barbarian   116  1267  1.000000   1383
+2   Skeleton   322   344  1.000000    666
+3     Wizard  3500   978  0.909091   4071
+4      Giant    54  3112  0.909091   2878
+5     Dragon  1254   813  1.000000   2067
+Waiting for Wizard (Need 5 elixir, have 4.00)
+
+['Giant', 'Dragon', 'Archer', 'Minion'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Wizard'] 5.00 (2m10s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 11.3 | Raw AirDef: 2.3 | Raw GndDef: 6.2
+Raw FlyAtk: 8.2 | Raw WalkAtk: 8.9 | Raw AirDef: 2.8 | Raw GndDef: 6.4
+FlyAtk: 3.0 | WalkAtk: 14.2 | AirDef: -12.1 | GndDef: -1.0 | Win: False
+Role: NEUTRAL, Defense Pref: 0.92, Attack Pref: 0.43
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie   173  1203   1.0   1617
+1  Barbarian   116  1267   1.0   1637
+2   Skeleton   322   344   1.0    735
+3     Wizard  3500   978   1.0   4674
+4      Giant    54  3112   1.0   3789
+5     Dragon  1254   813   1.0   2230
+Waiting for Wizard (Need 5 elixir, have 5.00)
+
+['Dragon', 'Archer', 'Minion', 'Wizard'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Giant'] 1.00 (2m11s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 11.3 | Raw AirDef: 2.3 | Raw GndDef: 6.2
+Raw FlyAtk: 15.2 | Raw WalkAtk: 15.2 | Raw AirDef: 2.8 | Raw GndDef: 2.7
+FlyAtk: 3.0 | WalkAtk: 14.6 | AirDef: -30.3 | GndDef: -1.7 | Win: False
+Role: NEUTRAL, Defense Pref: 0.93, Attack Pref: 0.01
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   160  2077  0.700000   1857
+1  Barbarian   107  2187  0.777778   2125
+2   Skeleton   297   594  0.777778    786
+3      Giant    50  5372  0.636364   4134
+4     Dragon  1254    17  0.700000    892
+5     Archer  1298   992  0.777778   1936
+Waiting for Giant (Need 5 elixir, have 1.00)
+
+['Dragon', 'Archer', 'Minion', 'Wizard'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Giant'] 2.00 (2m12s)
+Raw FlyAtk: 13.0 | Raw WalkAtk: 18.1 | Raw AirDef: 2.3 | Raw GndDef: 7.7
+Raw FlyAtk: 14.2 | Raw WalkAtk: 14.2 | Raw AirDef: 2.5 | Raw GndDef: 2.7
+FlyAtk: 15.4 | WalkAtk: 23.7 | AirDef: -27.7 | GndDef: -1.6 | Win: False
+Role: DEFENSE, Defense Pref: 0.87, Attack Pref: 0.02
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   290  2060  0.800000   2704
+1  Barbarian   195  2169  0.888889   3065
+2   Skeleton   538   589  0.888889   1264
+3      Giant    90  5328  0.727273   5878
+4     Dragon  1254    33  0.800000   1043
+5     Archer  1298   984  0.888889   2466
+Waiting for Giant (Need 5 elixir, have 2.00)
+
+['Dragon', 'Archer', 'Minion', 'Wizard'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Giant'] 3.00 (2m13s)
+Raw FlyAtk: 13.0 | Raw WalkAtk: 15.6 | Raw AirDef: 2.3 | Raw GndDef: 5.2
+Raw FlyAtk: 14.2 | Raw WalkAtk: 14.2 | Raw AirDef: 2.5 | Raw GndDef: 2.7
+FlyAtk: 15.4 | WalkAtk: 20.3 | AirDef: -27.7 | GndDef: -1.6 | Win: False
+Role: DEFENSE, Defense Pref: 0.76, Attack Pref: 0.02
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   507  2060  0.900000   3238
+1  Barbarian   341  2169  1.000000   3595
+2   Skeleton   942   589  1.000000   1826
+3      Giant   158  5327  0.818182   6668
+4     Dragon  1254    33  0.900000   1173
+5     Archer  1298   984  1.000000   2774
+Waiting for Giant (Need 5 elixir, have 3.00)
+
+['Dragon', 'Archer', 'Minion', 'Wizard'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Giant'] 4.00 (2m14s)
+Raw FlyAtk: 11.4 | Raw WalkAtk: 14.0 | Raw AirDef: 2.3 | Raw GndDef: 4.6
+Raw FlyAtk: 14.2 | Raw WalkAtk: 14.2 | Raw AirDef: 2.5 | Raw GndDef: 2.7
+FlyAtk: 12.7 | WalkAtk: 18.2 | AirDef: -27.7 | GndDef: -1.6 | Win: False
+Role: DEFENSE, Defense Pref: 0.78, Attack Pref: 0.02
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   464  2060  1.000000   3554
+1  Barbarian   312  2169  1.000000   3566
+2   Skeleton   862   589  1.000000   1746
+3      Giant   145  5327  0.909091   7396
+4     Dragon  1254    33  1.000000   1304
+5     Archer  1298   984  1.000000   2774
+Waiting for Giant (Need 5 elixir, have 4.00)
+
+['Dragon', 'Archer', 'Minion', 'Wizard'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Giant'] 5.00 (2m15s)
+Raw FlyAtk: 14.6 | Raw WalkAtk: 17.2 | Raw AirDef: 3.0 | Raw GndDef: 4.6
+Raw FlyAtk: 13.1 | Raw WalkAtk: 13.1 | Raw AirDef: 2.2 | Raw GndDef: 2.7
+FlyAtk: 19.0 | WalkAtk: 22.4 | AirDef: -22.2 | GndDef: -1.5 | Win: False
+Role: DEFENSE, Defense Pref: 0.71, Attack Pref: 0.06
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie   623  1961   1.0   3566
+1  Barbarian   419  2065   1.0   3517
+2   Skeleton  1158   561   1.0   2000
+3      Giant   195  5072   1.0   7804
+4     Dragon  1254   123   1.0   1439
+5     Archer  1298   937   1.0   2703
+Waiting for Giant (Need 5 elixir, have 5.00)
+
+['Archer', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Dragon'] 1.00 (2m16s)
+Raw FlyAtk: 14.6 | Raw WalkAtk: 17.2 | Raw AirDef: 3.0 | Raw GndDef: 4.6
+Raw FlyAtk: 12.1 | Raw WalkAtk: 12.8 | Raw AirDef: 1.9 | Raw GndDef: 8.1
+FlyAtk: 19.7 | WalkAtk: 21.8 | AirDef: -19.5 | GndDef: -1.4 | Win: False
+Role: DEFENSE, Defense Pref: 0.65, Attack Pref: 0.12
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   755  1849  0.700000   2471
+1  Barbarian   508  1947  0.777778   2667
+2   Skeleton  1403   529  0.777778   1708
+3     Dragon  1254   225  0.700000   1114
+4     Archer  1298   883  0.777778   2040
+5     Minion  1548   106  0.777778   1328
+Waiting for Barbarian (Need 3 elixir, have 1.00)
+
+['Archer', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Dragon'] 2.00 (2m17s)
+Raw FlyAtk: 14.6 | Raw WalkAtk: 17.2 | Raw AirDef: 3.0 | Raw GndDef: 4.6
+Raw FlyAtk: 9.6 | Raw WalkAtk: 10.3 | Raw AirDef: 0.0 | Raw GndDef: 8.1
+FlyAtk: 24.7 | WalkAtk: 21.8 | AirDef: -13.0 | GndDef: -1.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.41, Attack Pref: 0.39
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1278  1282  0.800000   2562
+1  Barbarian   859  1350  0.888889   2565
+2   Skeleton  2373   367  0.888889   2599
+3     Dragon  1254   741  0.800000   1893
+4     Archer  1298   612  0.888889   1971
+5     Minion  1548   352  0.888889   1845
+Waiting for Barbarian (Need 3 elixir, have 2.00)
+
+['Archer', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Dragon'] 3.00 (2m18s)
+Raw FlyAtk: 13.4 | Raw WalkAtk: 16.0 | Raw AirDef: 2.6 | Raw GndDef: 4.6
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.7 | Raw AirDef: 0.0 | Raw GndDef: 7.1
+FlyAtk: 22.6 | WalkAtk: 20.3 | AirDef: -7.7 | GndDef: -0.8 | Win: False
+Role: DEFENSE, Defense Pref: 0.43, Attack Pref: 0.69
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie  1218   652   0.9   1977
+1  Barbarian   819   686   1.0   1849
+2   Skeleton  2262   186   1.0   2542
+3     Dragon  1254  1316   0.9   2905
+4     Archer  1298   311   1.0   1765
+5     Minion  1548   625   1.0   2485
+Waiting for Dragon (Need 4 elixir, have 3.00)
+
+['Archer', 'Minion', 'Wizard', 'Giant'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Dragon'] 4.00 (2m19s)
+Raw FlyAtk: 15.2 | Raw WalkAtk: 17.3 | Raw AirDef: 4.6 | Raw GndDef: 4.1
+Raw FlyAtk: 7.0 | Raw WalkAtk: 7.7 | Raw AirDef: 0.0 | Raw GndDef: 7.1
+FlyAtk: 25.6 | WalkAtk: 22.1 | AirDef: 0.1 | GndDef: -0.8 | Win: False
+Role: DEFENSE, Defense Pref: 0.38, Attack Pref: 0.94
+
+       Troop   Atk   Def  Mult  Score
+0   Valkyrie  1345   128   1.0   1538
+1  Barbarian   904   135   1.0   1108
+2   Skeleton  2497    36   1.0   2552
+3     Dragon  1254  1793   1.0   3943
+4     Archer  1298    61   1.0   1390
+5     Minion  1548   851   1.0   2825
+Waiting for Dragon (Need 4 elixir, have 4.00)
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Archer'] 1.00 (2m20s)
+Raw FlyAtk: 13.9 | Raw WalkAtk: 16.1 | Raw AirDef: 4.2 | Raw GndDef: 4.1
+Raw FlyAtk: 9.5 | Raw WalkAtk: 10.2 | Raw AirDef: 1.9 | Raw GndDef: 7.1
+FlyAtk: 18.6 | WalkAtk: 20.4 | AirDef: -7.9 | GndDef: -1.1 | Win: False
+Role: DEFENSE, Defense Pref: 0.64, Attack Pref: 0.69
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   775  647  0.700000   1222
+1  Barbarian   521  682  0.777778   1201
+2   Skeleton  1438  185  0.777778   1335
+3     Archer  1298  309  0.777778   1370
+4     Minion  1548  626  0.777778   1935
+5     Wizard  3500  526  0.636364   2730
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Archer'] 2.00 (2m21s)
+Raw FlyAtk: 5.5 | Raw WalkAtk: 7.7 | Raw AirDef: 4.2 | Raw GndDef: 2.1
+Raw FlyAtk: 9.5 | Raw WalkAtk: 10.2 | Raw AirDef: 1.9 | Raw GndDef: 7.1
+FlyAtk: 4.4 | WalkAtk: 9.3 | AirDef: -7.9 | GndDef: -1.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.77, Attack Pref: 0.69
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   501  645  0.800000    917
+1  Barbarian   336  679  0.888889    903
+2   Skeleton   930  184  0.888889    991
+3     Archer  1298  308  0.888889   1427
+4     Minion  1548  627  0.888889   1934
+5     Wizard  3500  524  0.727273   2927
+Deploying best available troop: None
+
+['Minion', 'Wizard', 'Giant', 'Dragon'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Archer'] 3.00 (2m22s)
+Raw FlyAtk: 8.6 | Raw WalkAtk: 10.8 | Raw AirDef: 4.2 | Raw GndDef: 3.3
+Raw FlyAtk: 9.5 | Raw WalkAtk: 10.2 | Raw AirDef: 1.9 | Raw GndDef: 7.1
+FlyAtk: 9.6 | WalkAtk: 13.4 | AirDef: -7.9 | GndDef: -1.1 | Win: False
+Role: OFFENSE, Defense Pref: 0.72, Attack Pref: 0.69
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   594  646  0.900000   1117
+1  Barbarian   399  681  1.000000   1080
+2   Skeleton  1103  185  1.000000   1288
+3     Archer  1298  309  1.000000   1607
+4     Minion  1548  627  1.000000   2175
+5     Wizard  3500  525  0.818182   3293
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Archer'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Minion'] 1.00 (2m23s)
+Raw FlyAtk: 8.6 | Raw WalkAtk: 10.8 | Raw AirDef: 4.2 | Raw GndDef: 3.3
+Raw FlyAtk: 5.1 | Raw WalkAtk: 5.8 | Raw AirDef: 1.9 | Raw GndDef: 6.4
+FlyAtk: 9.6 | WalkAtk: 13.5 | AirDef: 3.5 | GndDef: -0.6 | Win: False
+Role: OFFENSE, Defense Pref: 0.73, Attack Pref: 0.97
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   587   58  0.700000    452
+1  Barbarian   395   62  0.777778    355
+2   Skeleton  1090   16  0.777778    861
+3     Minion  1548  881  0.777778   1889
+4     Wizard  3500   47  0.636364   2257
+5      Giant   183  152  0.636364    213
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Archer'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Minion'] 2.00 (2m24s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 8.3 | Raw AirDef: 2.3 | Raw GndDef: 3.3
+Raw FlyAtk: 5.1 | Raw WalkAtk: 5.8 | Raw AirDef: 1.9 | Raw GndDef: 6.4
+FlyAtk: 5.4 | WalkAtk: 10.2 | AirDef: -4.1 | GndDef: -0.6 | Win: False
+Role: OFFENSE, Defense Pref: 0.76, Attack Pref: 0.84
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   512  342  0.800000    683
+1  Barbarian   344  360  0.888889    626
+2   Skeleton   950   98  0.888889    932
+3     Minion  1548  758  0.888889   2050
+4     Wizard  3500  278  0.727273   2748
+5      Giant   160  886  0.727273    761
+Deploying best available troop: None
+
+['Wizard', 'Giant', 'Dragon', 'Archer'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Minion'] 3.00 (2m25s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 8.3 | Raw AirDef: 2.3 | Raw GndDef: 3.3
+Raw FlyAtk: 5.1 | Raw WalkAtk: 5.8 | Raw AirDef: 1.9 | Raw GndDef: 6.4
+FlyAtk: 5.4 | WalkAtk: 10.2 | AirDef: -4.1 | GndDef: -0.6 | Win: False
+Role: NEUTRAL, Defense Pref: 0.76, Attack Pref: 0.84
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   512  342  0.900000    831
+1  Barbarian   344  360  1.000000    777
+2   Skeleton   950   98  1.000000   1068
+3     Minion  1548  758  1.000000   2458
+4     Wizard  3500  278  0.818182   3137
+5      Giant   160  886  0.818182   1001
+Deploying best available troop: None
+
+['Giant', 'Dragon', 'Archer', 'Minion'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Wizard'] 1.00 (2m26s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 10.9 | Raw AirDef: 2.3 | Raw GndDef: 5.8
+Raw FlyAtk: 8.2 | Raw WalkAtk: 8.9 | Raw AirDef: 2.8 | Raw GndDef: 6.4
+FlyAtk: 3.0 | WalkAtk: 13.6 | AirDef: -12.1 | GndDef: -1.0 | Win: False
+Role: OFFENSE, Defense Pref: 0.91, Attack Pref: 0.43
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   192  1203  0.700000    976
+1  Barbarian   129  1266  0.777778   1085
+2   Skeleton   357   344  0.777778    545
+3     Wizard  3500   978  0.636364   2849
+4      Giant    60  3111  0.636364   2018
+5     Dragon  1254   814  0.700000   1447
+Waiting for Wizard (Need 5 elixir, have 1.00)
+
+['Giant', 'Dragon', 'Archer', 'Minion'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Wizard'] 2.00 (2m27s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 10.9 | Raw AirDef: 2.3 | Raw GndDef: 5.8
+Raw FlyAtk: 8.2 | Raw WalkAtk: 8.9 | Raw AirDef: 2.8 | Raw GndDef: 6.4
+FlyAtk: 3.0 | WalkAtk: 13.6 | AirDef: -12.1 | GndDef: -1.0 | Win: False
+Role: OFFENSE, Defense Pref: 0.91, Attack Pref: 0.43
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   192  1203  0.800000   1116
+1  Barbarian   129  1266  0.888889   1241
+2   Skeleton   357   344  0.888889    623
+3     Wizard  3500   978  0.727273   3256
+4      Giant    60  3111  0.727273   2306
+5     Dragon  1254   814  0.800000   1654
+Waiting for Wizard (Need 5 elixir, have 2.00)
+
+['Giant', 'Dragon', 'Archer', 'Minion'] | ['Valkyrie', 'Barbarian', 'Skeleton', 'Wizard'] 3.00 (2m28s)
+Raw FlyAtk: 6.1 | Raw WalkAtk: 8.7 | Raw AirDef: 2.3 | Raw GndDef: 3.7
+Raw FlyAtk: 7.2 | Raw WalkAtk: 7.8 | Raw AirDef: 2.5 | Raw GndDef: 6.4
+FlyAtk: 3.8 | WalkAtk: 10.8 | AirDef: -9.5 | GndDef: -0.9 | Win: False
+Role: OFFENSE, Defense Pref: 0.83, Attack Pref: 0.59
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   363   867  0.900000   1107
+1  Barbarian   244   913  1.000000   1157
+2   Skeleton   675   248  1.000000    923
+3     Wizard  3500   705  0.818182   3440
+4      Giant   113  2242  0.818182   1927
+5     Dragon  1254  1120  0.900000   2137
+Waiting for Wizard (Need 5 elixir, have 3.00)
+
+['Dragon', 'Archer', 'Minion', 'Barbarian'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Giant'] 1.00 (2m29s)
+Raw FlyAtk: 3.1 | Raw WalkAtk: 5.7 | Raw AirDef: 0.0 | Raw GndDef: 3.7
+Raw FlyAtk: 7.2 | Raw WalkAtk: 9.3 | Raw AirDef: 2.5 | Raw GndDef: 8.6
+FlyAtk: -1.3 | WalkAtk: 6.5 | AirDef: -18.6 | GndDef: -1.0 | Win: False
+Role: NEUTRAL, Defense Pref: 0.85, Attack Pref: 0.13
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie   315  1824  0.700000   1753
+1  Skeleton   584   522  0.777778    942
+2    Wizard  3500  1483  0.636364   3360
+3     Giant    98  4718  0.636364   3665
+4    Dragon  1254   248  0.700000   1086
+5    Archer  1298   871  0.777778   1823
+Waiting for Giant (Need 5 elixir, have 1.00)
+
+['Dragon', 'Archer', 'Minion', 'Barbarian'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Giant'] 2.00 (2m30s)
+Raw FlyAtk: 3.1 | Raw WalkAtk: 5.7 | Raw AirDef: 0.0 | Raw GndDef: 3.7
+Raw FlyAtk: 7.2 | Raw WalkAtk: 9.3 | Raw AirDef: 2.5 | Raw GndDef: 8.6
+FlyAtk: -1.3 | WalkAtk: 6.5 | AirDef: -18.6 | GndDef: -1.0 | Win: False
+Role: NEUTRAL, Defense Pref: 0.85, Attack Pref: 0.13
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie   315  1824  0.800000   2003
+1  Skeleton   584   522  0.888889   1076
+2    Wizard  3500  1483  0.727273   3840
+3     Giant    98  4718  0.727273   4189
+4    Dragon  1254   248  0.800000   1241
+5    Archer  1298   871  0.888889   2083
+Waiting for Giant (Need 5 elixir, have 2.00)
+
+['Dragon', 'Archer', 'Minion', 'Barbarian'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Giant'] 3.00 (3m31s)
+Raw FlyAtk: 11.5 | Raw WalkAtk: 14.1 | Raw AirDef: 0.0 | Raw GndDef: 5.8
+Raw FlyAtk: 7.2 | Raw WalkAtk: 9.3 | Raw AirDef: 2.5 | Raw GndDef: 8.6
+FlyAtk: 12.9 | WalkAtk: 17.7 | AirDef: -18.6 | GndDef: -1.0 | Win: False
+Role: OFFENSE, Defense Pref: 0.76, Attack Pref: 0.13
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie   519  1825  0.900000   2110
+1  Skeleton   964   522  1.000000   1486
+2    Wizard  3500  1484  0.818182   4078
+3     Giant   162  4721  0.818182   3995
+4    Dragon  1254   247  0.900000   1351
+5    Archer  1298   872  1.000000   2170
+Waiting for Wizard (Need 5 elixir, have 3.00)
+
+['Dragon', 'Archer', 'Minion', 'Barbarian'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Giant'] 4.00 (3m32s)
+Raw FlyAtk: 10.0 | Raw WalkAtk: 12.5 | Raw AirDef: 0.0 | Raw GndDef: 5.2
+Raw FlyAtk: 6.1 | Raw WalkAtk: 8.3 | Raw AirDef: 2.2 | Raw GndDef: 8.6
+FlyAtk: 11.1 | WalkAtk: 15.6 | AirDef: -16.0 | GndDef: -0.9 | Win: False
+Role: OFFENSE, Defense Pref: 0.75, Attack Pref: 0.22
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie   536  1635  1.000000   2171
+1  Skeleton   995   467  1.000000   1463
+2    Wizard  3500  1329  0.909091   4390
+3     Giant   167  4228  0.909091   3996
+4    Dragon  1254   420  1.000000   1674
+5    Archer  1298   781  1.000000   2079
+Waiting for Wizard (Need 5 elixir, have 4.00)
+
+['Dragon', 'Archer', 'Minion', 'Barbarian'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Giant'] 5.00 (3m33s)
+Raw FlyAtk: 10.0 | Raw WalkAtk: 12.5 | Raw AirDef: 0.0 | Raw GndDef: 5.2
+Raw FlyAtk: 6.1 | Raw WalkAtk: 8.3 | Raw AirDef: 2.2 | Raw GndDef: 8.6
+FlyAtk: 11.1 | WalkAtk: 15.6 | AirDef: -16.0 | GndDef: -0.9 | Win: False
+Role: OFFENSE, Defense Pref: 0.75, Attack Pref: 0.22
+
+      Troop   Atk   Def  Mult  Score
+0  Valkyrie   536  1635   1.0   2171
+1  Skeleton   995   467   1.0   1463
+2    Wizard  3500  1329   1.0   4829
+3     Giant   167  4228   1.0   4396
+4    Dragon  1254   420   1.0   1674
+5    Archer  1298   781   1.0   2079
+Waiting for Wizard (Need 5 elixir, have 5.00)
+
+['Archer', 'Minion', 'Barbarian', 'Giant'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Dragon'] 1.00 (3m34s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 14.7 | Raw AirDef: 1.1 | Raw GndDef: 4.6
+Raw FlyAtk: 5.1 | Raw WalkAtk: 7.9 | Raw AirDef: 1.9 | Raw GndDef: 14.1
+FlyAtk: 15.5 | WalkAtk: 17.8 | AirDef: -8.9 | GndDef: -0.9 | Win: False
+Role: OFFENSE, Defense Pref: 0.66, Attack Pref: 0.62
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie   732   798  0.700000   1071
+1  Skeleton  1359   228  0.777778   1235
+2    Wizard  3500   649  0.636364   2640
+3    Dragon  1254  1183  0.700000   1706
+4    Archer  1298   381  0.777778   1306
+5    Minion  1548   561  0.777778   1641
+Waiting for Wizard (Need 5 elixir, have 1.00)
+
+['Archer', 'Minion', 'Barbarian', 'Giant'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Dragon'] 2.00 (3m35s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 14.7 | Raw AirDef: 1.1 | Raw GndDef: 4.6
+Raw FlyAtk: 5.1 | Raw WalkAtk: 7.9 | Raw AirDef: 1.9 | Raw GndDef: 14.1
+FlyAtk: 15.5 | WalkAtk: 17.8 | AirDef: -8.9 | GndDef: -0.9 | Win: False
+Role: OFFENSE, Defense Pref: 0.66, Attack Pref: 0.62
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie   732   798  0.800000   1224
+1  Skeleton  1359   228  0.888889   1411
+2    Wizard  3500   649  0.727273   3017
+3    Dragon  1254  1183  0.800000   1949
+4    Archer  1298   381  0.888889   1492
+5    Minion  1548   561  0.888889   1875
+Waiting for Wizard (Need 5 elixir, have 2.00)
+
+['Archer', 'Minion', 'Barbarian', 'Giant'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Dragon'] 3.00 (3m36s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 14.7 | Raw AirDef: 1.1 | Raw GndDef: 4.6
+Raw FlyAtk: 5.1 | Raw WalkAtk: 7.9 | Raw AirDef: 1.9 | Raw GndDef: 14.1
+FlyAtk: 15.5 | WalkAtk: 17.8 | AirDef: -8.9 | GndDef: -0.9 | Win: False
+Role: OFFENSE, Defense Pref: 0.66, Attack Pref: 0.62
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie   732   798  0.900000   1377
+1  Skeleton  1359   228  1.000000   1588
+2    Wizard  3500   649  0.818182   3394
+3    Dragon  1254  1183  0.900000   2193
+4    Archer  1298   381  1.000000   1679
+5    Minion  1548   561  1.000000   2109
+Waiting for Wizard (Need 5 elixir, have 3.00)
+
+['Archer', 'Minion', 'Barbarian', 'Giant'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Dragon'] 4.00 (3m37s)
+Raw FlyAtk: 12.1 | Raw WalkAtk: 14.7 | Raw AirDef: 1.1 | Raw GndDef: 4.6
+Raw FlyAtk: 2.6 | Raw WalkAtk: 5.4 | Raw AirDef: 0.0 | Raw GndDef: 14.1
+FlyAtk: 20.5 | WalkAtk: 17.8 | AirDef: -2.4 | GndDef: -0.6 | Win: False
+Role: DEFENSE, Defense Pref: 0.42, Attack Pref: 0.89
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie  1253   240  1.000000   1613
+1  Skeleton  2326    68  1.000000   2429
+2    Wizard  3500   195  0.909091   3448
+3    Dragon  1254  1691  1.000000   3791
+4    Archer  1298   114  1.000000   1470
+5    Minion  1548   803  1.000000   2752
+Waiting for Dragon (Need 4 elixir, have 4.00)
+
+['Minion', 'Barbarian', 'Giant', 'Dragon'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Archer'] 1.00 (3m38s)
+Raw FlyAtk: 13.9 | Raw WalkAtk: 16.0 | Raw AirDef: 3.0 | Raw GndDef: 4.1
+Raw FlyAtk: 5.1 | Raw WalkAtk: 7.9 | Raw AirDef: 1.9 | Raw GndDef: 14.1
+FlyAtk: 18.5 | WalkAtk: 19.6 | AirDef: -1.2 | GndDef: -0.9 | Win: False
+Role: DEFENSE, Defense Pref: 0.60, Attack Pref: 0.92
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   854  171  0.700000    778
+1   Skeleton  1586   49  0.777778   1291
+2     Wizard  3500  139  0.636364   2360
+3     Archer  1298   82  0.777778   1105
+4     Minion  1548  832  0.777778   2175
+5  Barbarian   574  180  0.777778    657
+Waiting for Wizard (Need 5 elixir, have 1.00)
+
+['Minion', 'Barbarian', 'Giant', 'Dragon'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Archer'] 2.00 (3m39s)
+Raw FlyAtk: 13.9 | Raw WalkAtk: 16.0 | Raw AirDef: 3.0 | Raw GndDef: 4.1
+Raw FlyAtk: 5.1 | Raw WalkAtk: 7.4 | Raw AirDef: 1.9 | Raw GndDef: 13.3
+FlyAtk: 18.5 | WalkAtk: 19.7 | AirDef: -1.2 | GndDef: -0.8 | Win: False
+Role: DEFENSE, Defense Pref: 0.61, Attack Pref: 0.92
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   846  173  0.800000    885
+1   Skeleton  1570   49  0.888889   1462
+2     Wizard  3500  141  0.727273   2699
+3     Archer  1298   83  0.888889   1264
+4     Minion  1548  831  0.888889   2485
+5  Barbarian   568  183  0.888889    749
+Waiting for Wizard (Need 5 elixir, have 2.00)
+
+['Minion', 'Barbarian', 'Giant', 'Dragon'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Archer'] 3.00 (3m40s)
+Raw FlyAtk: 12.6 | Raw WalkAtk: 14.8 | Raw AirDef: 2.7 | Raw GndDef: 4.1
+Raw FlyAtk: 5.1 | Raw WalkAtk: 6.9 | Raw AirDef: 1.9 | Raw GndDef: 12.6
+FlyAtk: 16.4 | WalkAtk: 18.1 | AirDef: -2.6 | GndDef: -0.8 | Win: False
+Role: DEFENSE, Defense Pref: 0.63, Attack Pref: 0.88
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   791  244  0.900000   1041
+1   Skeleton  1468   69  1.000000   1573
+2     Wizard  3500  198  0.818182   3107
+3     Archer  1298  116  1.000000   1472
+4     Minion  1548  801  1.000000   2750
+5  Barbarian   532  257  1.000000    917
+Waiting for Wizard (Need 5 elixir, have 3.00)
+
+['Minion', 'Barbarian', 'Giant', 'Dragon'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Archer'] 4.00 (3m41s)
+Raw FlyAtk: 15.6 | Raw WalkAtk: 17.7 | Raw AirDef: 2.6 | Raw GndDef: 5.3
+Raw FlyAtk: 5.1 | Raw WalkAtk: 6.5 | Raw AirDef: 1.9 | Raw GndDef: 11.8
+FlyAtk: 21.3 | WalkAtk: 22.1 | AirDef: -2.9 | GndDef: -0.7 | Win: False
+Role: DEFENSE, Defense Pref: 0.59, Attack Pref: 0.88
+
+       Troop   Atk  Def      Mult  Score
+0   Valkyrie   892  261  1.000000   1284
+1   Skeleton  1655   74  1.000000   1768
+2     Wizard  3500  212  0.909091   3471
+3     Archer  1298  124  1.000000   1485
+4     Minion  1548  794  1.000000   2739
+5  Barbarian   599  275  1.000000   1012
+Waiting for Wizard (Need 5 elixir, have 4.00)
+
+['Minion', 'Barbarian', 'Giant', 'Dragon'] | ['Valkyrie', 'Skeleton', 'Wizard', 'Archer'] 5.00 (3m42s)
+Raw FlyAtk: 15.6 | Raw WalkAtk: 17.7 | Raw AirDef: 2.6 | Raw GndDef: 5.3
+Raw FlyAtk: 5.1 | Raw WalkAtk: 6.5 | Raw AirDef: 1.9 | Raw GndDef: 11.8
+FlyAtk: 21.3 | WalkAtk: 22.1 | AirDef: -2.9 | GndDef: -0.7 | Win: False
+Role: DEFENSE, Defense Pref: 0.59, Attack Pref: 0.88
+
+       Troop   Atk  Def  Mult  Score
+0   Valkyrie   892  261   1.0   1284
+1   Skeleton  1655   74   1.0   1768
+2     Wizard  3500  212   1.0   3818
+3     Archer  1298  124   1.0   1485
+4     Minion  1548  794   1.0   2739
+5  Barbarian   599  275   1.0   1012
+Waiting for Wizard (Need 5 elixir, have 5.00)
+
+['Barbarian', 'Giant', 'Dragon', 'Wizard'] | ['Valkyrie', 'Skeleton', 'Archer', 'Minion'] 1.00 (3m43s)
+Raw FlyAtk: 14.5 | Raw WalkAtk: 16.7 | Raw AirDef: 2.3 | Raw GndDef: 5.3
+Raw FlyAtk: 12.1 | Raw WalkAtk: 13.5 | Raw AirDef: 1.9 | Raw GndDef: 13.6
+FlyAtk: 19.6 | WalkAtk: 20.5 | AirDef: -22.3 | GndDef: -1.5 | Win: False
+Role: DEFENSE, Defense Pref: 0.59, Attack Pref: 0.06
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   873  1965  0.700000   2674
+1   Skeleton  1620   562  0.777778   1916
+2     Archer  1298   938  0.777778   2105
+3     Minion  1548    57  0.777778   1270
+4  Barbarian   587  2069  0.777778   2870
+5      Giant   273  5082  0.636364   5024
+Deploying best available troop: None
+
+['Barbarian', 'Giant', 'Dragon', 'Wizard'] | ['Valkyrie', 'Skeleton', 'Archer', 'Minion'] 2.00 (3m44s)
+Raw FlyAtk: 14.5 | Raw WalkAtk: 16.7 | Raw AirDef: 2.3 | Raw GndDef: 5.3
+Raw FlyAtk: 9.5 | Raw WalkAtk: 10.9 | Raw AirDef: 1.9 | Raw GndDef: 12.6
+FlyAtk: 19.6 | WalkAtk: 20.6 | AirDef: -15.6 | GndDef: -1.2 | Win: False
+Role: DEFENSE, Defense Pref: 0.60, Attack Pref: 0.25
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   861  1568  0.800000   2571
+1   Skeleton  1598   448  0.888889   2019
+2     Archer  1298   749  0.888889   2153
+3     Minion  1548   228  0.888889   1680
+4  Barbarian   579  1651  0.888889   2717
+5      Giant   269  4057  0.727273   4622
+Deploying best available troop: None
+
+['Barbarian', 'Giant', 'Dragon', 'Wizard'] | ['Valkyrie', 'Skeleton', 'Archer', 'Minion'] 3.00 (3m45s)
+Raw FlyAtk: 14.5 | Raw WalkAtk: 19.3 | Raw AirDef: 2.3 | Raw GndDef: 7.9
+Raw FlyAtk: 9.5 | Raw WalkAtk: 10.9 | Raw AirDef: 1.9 | Raw GndDef: 12.6
+FlyAtk: 19.6 | WalkAtk: 24.0 | AirDef: -15.6 | GndDef: -1.2 | Win: False
+Role: DEFENSE, Defense Pref: 0.75, Attack Pref: 0.25
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie   541  1571  0.900000   2608
+1   Skeleton  1005   449  1.000000   1680
+2     Archer  1298   750  1.000000   2424
+3     Minion  1548   227  1.000000   1889
+4  Barbarian   364  1654  1.000000   2846
+5      Giant   169  4063  0.818182   5126
+Deploying best available troop: None
+
+['Giant', 'Dragon', 'Wizard', 'Archer'] | ['Valkyrie', 'Skeleton', 'Minion', 'Barbarian'] 1.00 (3m46s)
+Raw FlyAtk: 14.5 | Raw WalkAtk: 19.3 | Raw AirDef: 2.3 | Raw GndDef: 7.9
+Raw FlyAtk: 9.6 | Raw WalkAtk: 10.9 | Raw AirDef: 0.0 | Raw GndDef: 13.6
+FlyAtk: 24.5 | WalkAtk: 23.9 | AirDef: -15.8 | GndDef: -1.2 | Win: False
+Role: DEFENSE, Defense Pref: 0.52, Attack Pref: 0.24
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1037  1592  0.700000   2398
+1   Skeleton  1925   455  0.777778   2029
+2     Minion  1548   218  0.777778   1458
+3  Barbarian   697  1676  0.777778   2498
+4      Giant   324  4118  0.636364   4137
+5     Dragon  1254   459  0.700000   1360
+Deploying best available troop: None
+
+['Giant', 'Dragon', 'Wizard', 'Archer'] | ['Valkyrie', 'Skeleton', 'Minion', 'Barbarian'] 2.00 (3m47s)
+Raw FlyAtk: 14.5 | Raw WalkAtk: 19.3 | Raw AirDef: 2.3 | Raw GndDef: 7.9
+Raw FlyAtk: 9.6 | Raw WalkAtk: 10.9 | Raw AirDef: 0.0 | Raw GndDef: 13.6
+FlyAtk: 24.5 | WalkAtk: 23.9 | AirDef: -15.8 | GndDef: -1.2 | Win: False
+Role: DEFENSE, Defense Pref: 0.52, Attack Pref: 0.24
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1037  1592  0.800000   2740
+1   Skeleton  1925   455  0.888889   2318
+2     Minion  1548   218  0.888889   1666
+3  Barbarian   697  1676  0.888889   2855
+4      Giant   324  4118  0.727273   4729
+5     Dragon  1254   459  0.800000   1554
+Deploying best available troop: None
+
+['Giant', 'Dragon', 'Wizard', 'Archer'] | ['Valkyrie', 'Skeleton', 'Minion', 'Barbarian'] 3.00 (3m48s)
+Raw FlyAtk: 14.5 | Raw WalkAtk: 19.3 | Raw AirDef: 2.3 | Raw GndDef: 7.9
+Raw FlyAtk: 9.6 | Raw WalkAtk: 10.9 | Raw AirDef: 0.0 | Raw GndDef: 13.6
+FlyAtk: 24.5 | WalkAtk: 23.9 | AirDef: -15.8 | GndDef: -1.2 | Win: False
+Role: DEFENSE, Defense Pref: 0.52, Attack Pref: 0.24
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1037  1592  0.900000   3083
+1   Skeleton  1925   455  1.000000   2608
+2     Minion  1548   218  1.000000   1875
+3  Barbarian   697  1676  1.000000   3212
+4      Giant   324  4118  0.818182   5320
+5     Dragon  1254   459  0.900000   1748
+Deploying best available troop: None
+
+['Dragon', 'Wizard', 'Archer', 'Barbarian'] | ['Valkyrie', 'Skeleton', 'Minion', 'Giant'] 1.00 (3m49s)
+Raw FlyAtk: 14.5 | Raw WalkAtk: 19.3 | Raw AirDef: 2.3 | Raw GndDef: 7.9
+Raw FlyAtk: 9.6 | Raw WalkAtk: 11.7 | Raw AirDef: 0.0 | Raw GndDef: 10.3
+FlyAtk: 24.5 | WalkAtk: 24.3 | AirDef: -15.8 | GndDef: -1.3 | Win: False
+Role: DEFENSE, Defense Pref: 0.54, Attack Pref: 0.24
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie   997  1584  0.700000   2361
+1  Skeleton  1851   453  0.777778   1968
+2    Minion  1548   221  0.777778   1462
+3     Giant   311  4096  0.636364   4108
+4    Dragon  1254   467  0.700000   1368
+5    Wizard  3500  1287  0.636364   3456
+Waiting for Giant (Need 5 elixir, have 1.00)
+
+['Dragon', 'Wizard', 'Archer', 'Barbarian'] | ['Valkyrie', 'Skeleton', 'Minion', 'Giant'] 2.00 (3m50s)
+Raw FlyAtk: 22.9 | Raw WalkAtk: 25.5 | Raw AirDef: 2.3 | Raw GndDef: 7.8
+Raw FlyAtk: 9.6 | Raw WalkAtk: 11.7 | Raw AirDef: 0.0 | Raw GndDef: 10.3
+FlyAtk: 38.7 | WalkAtk: 32.5 | AirDef: -15.8 | GndDef: -1.3 | Win: False
+Role: DEFENSE, Defense Pref: 0.26, Attack Pref: 0.24
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie  1591  1584  0.800000   3174
+1  Skeleton  2954   453  0.888889   3230
+2    Minion  1548   221  0.888889   1671
+3     Giant   497  4096  0.727273   4830
+4    Dragon  1254   467  0.800000   1564
+5    Wizard  3500  1287  0.727273   3950
+Waiting for Giant (Need 5 elixir, have 2.00)
+
+['Dragon', 'Wizard', 'Archer', 'Barbarian'] | ['Valkyrie', 'Skeleton', 'Minion', 'Giant'] 3.00 (3m51s)
+Raw FlyAtk: 22.9 | Raw WalkAtk: 25.5 | Raw AirDef: 2.3 | Raw GndDef: 7.8
+Raw FlyAtk: 9.6 | Raw WalkAtk: 11.7 | Raw AirDef: 0.0 | Raw GndDef: 10.3
+FlyAtk: 38.7 | WalkAtk: 32.5 | AirDef: -15.8 | GndDef: -1.3 | Win: False
+Role: DEFENSE, Defense Pref: 0.26, Attack Pref: 0.24
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie  1591  1584  0.900000   3570
+1  Skeleton  2954   453  1.000000   3634
+2    Minion  1548   221  1.000000   1880
+3     Giant   497  4096  0.818182   5434
+4    Dragon  1254   467  0.900000   1759
+5    Wizard  3500  1287  0.818182   4444
+Waiting for Giant (Need 5 elixir, have 3.00)
+
+['Dragon', 'Wizard', 'Archer', 'Barbarian'] | ['Valkyrie', 'Skeleton', 'Minion', 'Giant'] 4.00 (3m52s)
+Raw FlyAtk: 22.9 | Raw WalkAtk: 25.5 | Raw AirDef: 2.3 | Raw GndDef: 7.8
+Raw FlyAtk: 9.6 | Raw WalkAtk: 11.7 | Raw AirDef: 0.0 | Raw GndDef: 10.3
+FlyAtk: 38.7 | WalkAtk: 32.5 | AirDef: -15.8 | GndDef: -1.3 | Win: False
+Role: DEFENSE, Defense Pref: 0.26, Attack Pref: 0.24
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie  1591  1584  1.000000   3967
+1  Skeleton  2954   453  1.000000   3634
+2    Minion  1548   221  1.000000   1880
+3     Giant   497  4096  0.909091   6038
+4    Dragon  1254   467  1.000000   1955
+5    Wizard  3500  1287  0.909091   4938
+Waiting for Giant (Need 5 elixir, have 4.00)
+
+['Wizard', 'Archer', 'Barbarian', 'Skeleton'] | ['Valkyrie', 'Minion', 'Giant', 'Dragon'] 2.00 (3m53s)
+Raw FlyAtk: 26.6 | Raw WalkAtk: 29.2 | Raw AirDef: 3.4 | Raw GndDef: 7.8
+Raw FlyAtk: 9.6 | Raw WalkAtk: 15.7 | Raw AirDef: 0.0 | Raw GndDef: 10.9
+FlyAtk: 45.0 | WalkAtk: 37.4 | AirDef: -11.4 | GndDef: -1.7 | Win: False
+Role: DEFENSE, Defense Pref: 0.21, Attack Pref: 0.52
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie  1702  1008  0.800000   2572
+1    Minion  1548   470  0.888889   2003
+2     Giant   532  2608  0.727273   3232
+3    Dragon  1254   991  0.800000   2193
+4    Wizard  3500   820  0.727273   3440
+5    Archer  1298   481  0.888889   1796
+Deploying best available troop: None
+
+['Wizard', 'Archer', 'Barbarian', 'Skeleton'] | ['Valkyrie', 'Minion', 'Giant', 'Dragon'] 3.00 (3m54s)
+Raw FlyAtk: 26.6 | Raw WalkAtk: 29.2 | Raw AirDef: 3.4 | Raw GndDef: 7.8
+Raw FlyAtk: 9.6 | Raw WalkAtk: 15.7 | Raw AirDef: 0.0 | Raw GndDef: 10.9
+FlyAtk: 45.0 | WalkAtk: 37.4 | AirDef: -11.4 | GndDef: -1.7 | Win: False
+Role: DEFENSE, Defense Pref: 0.21, Attack Pref: 0.52
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie  1702  1008  0.900000   2894
+1    Minion  1548   470  1.000000   2254
+2     Giant   532  2608  0.818182   3636
+3    Dragon  1254   991  0.900000   2467
+4    Wizard  3500   820  0.818182   3870
+5    Archer  1298   481  1.000000   2020
+Deploying best available troop: None
+
+['Wizard', 'Archer', 'Barbarian', 'Skeleton'] | ['Valkyrie', 'Minion', 'Giant', 'Dragon'] 4.00 (3m55s)
+Raw FlyAtk: 23.6 | Raw WalkAtk: 26.2 | Raw AirDef: 1.1 | Raw GndDef: 7.8
+Raw FlyAtk: 9.6 | Raw WalkAtk: 15.0 | Raw AirDef: 0.0 | Raw GndDef: 5.5
+FlyAtk: 39.9 | WalkAtk: 34.0 | AirDef: -20.6 | GndDef: -1.7 | Win: False
+Role: DEFENSE, Defense Pref: 0.27, Attack Pref: 0.10
+
+      Troop   Atk   Def      Mult  Score
+0  Valkyrie  1566  1894  1.000000   4408
+1    Minion  1548    87  1.000000   1679
+2     Giant   490  4899  0.909091   7126
+3    Dragon  1254   184  1.000000   1530
+4    Wizard  3500  1540  0.909091   5282
+5    Archer  1298   905  1.000000   2655
+Waiting for Giant (Need 5 elixir, have 4.00)
+
+['Wizard', 'Archer', 'Barbarian', 'Skeleton'] | ['Valkyrie', 'Minion', 'Giant', 'Dragon'] 5.00 (3m56s)
+Raw FlyAtk: 20.5 | Raw WalkAtk: 23.1 | Raw AirDef: 1.1 | Raw GndDef: 6.6
+Raw FlyAtk: 9.6 | Raw WalkAtk: 15.0 | Raw AirDef: 0.0 | Raw GndDef: 5.5
+FlyAtk: 34.7 | WalkAtk: 29.9 | AirDef: -20.6 | GndDef: -1.7 | Win: False
+Role: DEFENSE, Defense Pref: 0.32, Attack Pref: 0.10
+
+      Troop   Atk   Def  Mult  Score
+0  Valkyrie  1463  1893   1.0   4304
+1    Minion  1548    87   1.0   1679
+2     Giant   457  4897   1.0   7804
+3    Dragon  1254   185   1.0   1531
+4    Wizard  3500  1539   1.0   5809
+5    Archer  1298   904   1.0   2655
+Waiting for Giant (Need 5 elixir, have 5.00)
+
+['Archer', 'Barbarian', 'Skeleton', 'Giant'] | ['Valkyrie', 'Minion', 'Dragon', 'Wizard'] 1.00 (3m57s)
+Raw FlyAtk: 23.5 | Raw WalkAtk: 26.1 | Raw AirDef: 3.4 | Raw GndDef: 6.6
+Raw FlyAtk: 7.0 | Raw WalkAtk: 13.1 | Raw AirDef: 0.0 | Raw GndDef: 9.9
+FlyAtk: 39.8 | WalkAtk: 33.4 | AirDef: -4.7 | GndDef: -1.4 | Win: False
+Role: DEFENSE, Defense Pref: 0.25, Attack Pref: 0.84
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1606   326  0.700000   1466
+1     Minion  1548   766  0.777778   2097
+2     Dragon  1254  1613  0.700000   2571
+3     Wizard  3500   265  0.636364   2480
+4     Archer  1298   155  0.777778   1191
+5  Barbarian  1079   343  0.777778   1240
+Waiting for Dragon (Need 4 elixir, have 1.00)
+
+['Archer', 'Barbarian', 'Skeleton', 'Giant'] | ['Valkyrie', 'Minion', 'Dragon', 'Wizard'] 2.00 (3m58s)
+Raw FlyAtk: 23.5 | Raw WalkAtk: 26.1 | Raw AirDef: 3.4 | Raw GndDef: 6.6
+Raw FlyAtk: 7.0 | Raw WalkAtk: 11.9 | Raw AirDef: 0.0 | Raw GndDef: 9.8
+FlyAtk: 39.8 | WalkAtk: 33.4 | AirDef: -4.7 | GndDef: -1.3 | Win: False
+Role: DEFENSE, Defense Pref: 0.26, Attack Pref: 0.84
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1604   335  0.800000   1686
+1     Minion  1548   761  0.888889   2391
+2     Dragon  1254  1604  0.800000   2928
+3     Wizard  3500   272  0.727273   2843
+4     Archer  1298   160  0.888889   1367
+5  Barbarian  1078   353  0.888889   1430
+Waiting for Dragon (Need 4 elixir, have 2.00)
+
+['Archer', 'Barbarian', 'Skeleton', 'Giant'] | ['Valkyrie', 'Minion', 'Dragon', 'Wizard'] 3.00 (3m59s)
+Raw FlyAtk: 23.5 | Raw WalkAtk: 26.1 | Raw AirDef: 3.4 | Raw GndDef: 6.6
+Raw FlyAtk: 0.0 | Raw WalkAtk: 2.8 | Raw AirDef: 0.0 | Raw GndDef: 7.1
+FlyAtk: 39.8 | WalkAtk: 33.7 | AirDef: 13.5 | GndDef: -0.3 | Win: False
+Role: DEFENSE, Defense Pref: 0.27, Attack Pref: 1.00
+
+       Troop   Atk   Def      Mult  Score
+0   Valkyrie  1578     5  0.900000   1428
+1     Minion  1548   904  1.000000   2905
+2     Dragon  1254  1905  0.900000   3700
+3     Wizard  3500     4  0.818182   2869
+4     Archer  1298     2  1.000000   1301
+5  Barbarian  1061     5  1.000000   1070
+Waiting for Dragon (Need 4 elixir, have 3.00)
+

@@ -1,0 +1,118 @@
+def calculate_troop_score(troop_name, role, troop_data, weights=SCORE_WEIGHTS):
+        """
+        Calculate a score for a troop based on its stats and the role.
+        Uses weighted contributions from:
+        - Damage potential (average of ground and air damage)
+        - Range (beneficial for attack, less so for defense)
+        - Hit points (more valuable on defense)
+        - Splash damage bonus if applicable (for defense)
+        - Cost normalization (lower cost is favorable)
+        """
+        if troop_name not in troop_data:
+            return 0
+
+        data = troop_data[troop_name]
+        cost = data["cost"]
+        hp = data["hp"]
+        range_ = data["range"]
+        dmg = (data["gnd_dmg"] + data["air_dmg"]) / 2
+        splash_bonus = 50 if 'splash' in data["flags"] else 0
+
+        w = weights.get(role, weights["neutral"])
+        # Compute score as weighted sum, normalized by cost
+        if role == "attack":
+            score = (dmg * w["dmg"] + range_ * w["range"] + hp * w["hp"]) / cost
+        elif role == "defense":
+            score = (hp * w["hp"] + splash_bonus + range_ * w["range"] + dmg * w["dmg"]) / cost
+        else:  # neutral
+            score = (dmg * w["dmg"] + range_ * w["range"] + hp * w["hp"]) / cost
+
+        pp(f"Troop {troop_name}: cost {cost}, hp {hp}, dmg {dmg:.2f}, range {range_} -> score: {score:.2f} (role: {role})")
+        return score
+
+
+    def find_attack_deployment_spot():
+        """
+        For attack, choose a spot with:
+        - Least enemy resistance: assume areas with lower enemy troop density.
+        - Maximum support: areas near allied support or in range of enemy tower.
+        
+        Here we simulate by scoring candidate positions.
+        Assume enemy tower at (100,50), and support improves as you get closer.
+        Candidate positions are represented as (x, y) coordinates.
+        """
+        # Simulated candidate positions
+        candidate_positions = [(60, 40), (70, 50), (80, 50), (90, 60), (75, 45)]
+        best_score = -float("inf")
+        best_pos = None
+        for pos in candidate_positions:
+            # Heuristic: closer to enemy tower (100,50) gives higher support but may increase enemy resistance.
+            dist_to_enemy = ((pos[0]-100)**2 + (pos[1]-50)**2) ** 0.5
+            # Assume enemy resistance increases with proximity to enemy defensive positions.
+            resistance = max(0, 100 - dist_to_enemy*2)
+            # Support bonus: higher for positions closer to enemy tower but with lower resistance.
+            score = (100 - dist_to_enemy) - resistance
+            # A simple heuristic can be adjusted; here we want max support and minimal enemy presence.
+            if score > best_score:
+                best_score = score
+                best_pos = pos
+        pp(f"Selected attack deployment position: {best_pos} with score {best_score:.2f}")
+        return best_pos
+
+
+    def find_defense_deployment_spot(chosen_troop):
+        """
+        For defense, if the chosen troop is not a Giant or Balloon (which target buildings),
+        deploy where it can distract enemy troops while protecting your tower.
+        
+        Otherwise, if it is a Giant or Balloon, deploy closer to the enemy tower to target buildings.
+        
+        Here we simulate by choosing between two positions:
+        - General defense (distracting): near your tower at (20,50)
+        - Building attack: near enemy tower at (80,50)
+        """
+        if chosen_troop in {"Giant", "Balloon"}:
+            pos = (80, 50)
+        else:
+            pos = (20, 50)
+        pp(f"Selected defense deployment position for {chosen_troop}: {pos}")
+        return pos
+
+
+    def main(hand, opp_troop_names, opp_deck, my_elixir, opp_elixir, double_elixir, troop_data):
+        # 1. Detailed threat assessment
+        threat_air, threat_ground = assess_threat_level(opp_troop_names, opp_deck, my_elixir, opp_elixir, troop_data, double_elixir)
+        
+        # 2. Determine role (attack, defense, neutral)
+        role = determine_role(threat_air, threat_ground, hand, my_elixir)
+        
+        # 3. Calculate score for each troop in your hand
+        troop_scores = {}
+        for troop in hand:
+            troop_scores[troop] = calculate_troop_score(troop, role, troop_data)
+        
+        sorted_troops = sorted(troop_scores.items(), key=lambda x: x[1], reverse=True)
+        best_troop = sorted_troops[0][0] if sorted_troops else None
+        pp("Troop scores (best to worst):")
+        for t, s in sorted_troops:
+            pp(f"  {t}: {s:.2f}")
+        
+        # 4 & 5. Determine optimal deployment position based on role
+        if role == "attack":
+            deploy_position = find_attack_deployment_spot()
+        elif role == "defense":
+            deploy_position = find_defense_deployment_spot(best_troop)
+        else:
+            # For neutral play, deploy at a balanced position (midfield)
+            deploy_position = (50, 50)
+            pp(f"Neutral deployment position selected: {deploy_position}")
+        
+        decision = {
+            "role": role,
+            "threat": {"air": threat_air, "ground": threat_ground},
+            "troop_scores": troop_scores,
+            "best_troop": best_troop,
+            "deploy_position": deploy_position
+        }
+        return decision
+    
